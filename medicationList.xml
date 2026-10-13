@@ -1,77 +1,1539 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PutPatientMedicationList xmlns:NEHR="http://www.mohh.com/nehr">
-   <putPatientMedicationList>
-      <controlHeader>
-         <srcInstitution>9403258</srcInstitution>
-         <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
-         <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>c463a98b-256b-4339-8</msgID>
-         <msgSequenceID>1</msgSequenceID>
-         <msgDateTime>2026-10-13T14:21:09+06:30</msgDateTime>
-      </controlHeader>
-      <patient>
-         <identification>
-            <id>1234QWERTY123</id>
-            <MRNNumber>MDX-GCMS^13023442</MRNNumber>
-            <type>SP</type>
-         </identification>
-         <name>
-            <value>ECHO TEST PAT</value>
-            <title>Mr.</title>
-         </name>
-         <dateOfBirth>1986-10-29</dateOfBirth>
-         <gender>D</gender>
-         <nationality>SG</nationality>
-         <race>HN</race>
-         <language>EL</language>
-         <maritalStatus>2</maritalStatus>
-         <occupation>26511</occupation>
-      </patient>
-      <list>
-         <encounter>
-            <identifier>1310202614053410913023442</identifier>
-         </encounter>
-         <date>2026-10-13T14:21:14+06:30</date>
-         <status>
-            <code>Final</code>
-            <codingSchemeName>Med_List_Status_(NEHR)</codingSchemeName>
-            <textDescription>Final</textDescription>
-         </status>
-         <code>
-            <code>PML</code>
-            <codingSchemeName>Med_List_Type_(NEHR)</codingSchemeName>
-            <textDescription>Patient Medication List</textDescription>
-         </code>
-         <reviewedUpon>
-            <code>6</code>
-            <codingSchemeName>Med_List_Reviewed_Upon_(NEHR)</codingSchemeName>
-            <textDescription>Outpatient (Post-Consultation)</textDescription>
-         </reviewedUpon>
-         <sourceOfMedicationList>
-            <code>2</code>
-            <codingSchemeName>Med_List_Source_(NEHR)</codingSchemeName>
-            <textDescription>Clinical Records (reconciled with patient self-report)</textDescription>
-         </sourceOfMedicationList>
-         <source>
-            <practitoner>
-               <identifier>03009J</identifier>
-               <name>PHILIP KOH</name>
-               <practitonerRole>
+  <putPatientMedicationList>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <list>
+      <encounter>
+        <identifier>1310202614053410913023442</identifier>
+      </encounter>
+      <date>2026-10-13T22:34:02+06:30</date>
+      <status>
+        <code>Final</code>
+        <codingSchemeName>Med_List_Status_(NEHR)</codingSchemeName>
+        <textDescription>Final</textDescription>
+      </status>
+      <code>
+        <code>PML</code>
+        <codingSchemeName>Med_List_Type_(NEHR)</codingSchemeName>
+        <textDescription>Patient Medication List</textDescription>
+      </code>
+      <reviewedUpon>
+        <code>6</code>
+        <codingSchemeName>Med_List_Reviewed_Upon_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient (Post-Consultation)</textDescription>
+      </reviewedUpon>
+      <sourceOfMedicationList>
+        <code>2</code>
+        <codingSchemeName>Med_List_Source_(NEHR)</codingSchemeName>
+        <textDescription>Clinical Records (reconciled with patient self-report)</textDescription>
+      </sourceOfMedicationList>
+      <source>
+        <practitoner>
+          <identifier>03009J</identifier>
+          <name>PHILIP KOH</name>
+          <practitonerRole>
+            <managingOrganization>
+              <identifier>9403258</identifier>
+            </managingOrganization>
+          </practitonerRole>
+        </practitoner>
+      </source>
+      <medicalAlert />
+      <drugAllergy />
+      <notesforHCP>
+        <medicationManagementIssues>
+          <code>Active</code>
+          <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+          <textDescription>Active</textDescription>
+        </medicationManagementIssues>
+      </notesforHCP>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>00006d17-5c4c-4cb3-ac0b-0979865b24ef1</identifier>
+            <sequenceNo>1</sequenceNo>
+            <dateAsserted>2026-10-13T22:34:13.3047724+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Alprazolam 0.5 mg </textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>When necessary</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
                   <managingOrganization>
-                     <identifier>9403258</identifier>
+                    <identifier>9403258</identifier>
                   </managingOrganization>
-               </practitonerRole>
-            </practitoner>
-         </source>
-         <medicalAlert/>
-         <drugAllergy/>
-         <notesforHCP>
-            <medicationManagementIssues>
-               <code>Active</code>
-               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
-               <textDescription>Active</textDescription>
-            </medicationManagementIssues>
-         </notesforHCP>
-      </list>
-   </putPatientMedicationList>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:34:12.6474751+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>0000b7c8-7f6d-484c-bb6e-b24b746553691</identifier>
+            <sequenceNo>2</sequenceNo>
+            <dateAsserted>2026-10-13T22:34:25.1449035+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Concor 5 mg (Bisoprolol 5mg)</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Every morning</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:34:24.535007+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>0000e0c0-2f21-40e9-a69b-239be767946f1</identifier>
+            <sequenceNo>3</sequenceNo>
+            <dateAsserted>2026-10-13T22:34:34.6571829+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Diovan 80 mg</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Every morning</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:34:33.9753465+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+    </list>
+  </putPatientMedicationList>
+  <putPatientMedicationList>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S8907863</id>
+        <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>TestP2025</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1987-01-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <list>
+      <encounter>
+        <identifier>1310202614064021513033148</identifier>
+      </encounter>
+      <date>2026-10-13T22:36:29+06:30</date>
+      <status>
+        <code>Final</code>
+        <codingSchemeName>Med_List_Status_(NEHR)</codingSchemeName>
+        <textDescription>Final</textDescription>
+      </status>
+      <code>
+        <code>PML</code>
+        <codingSchemeName>Med_List_Type_(NEHR)</codingSchemeName>
+        <textDescription>Patient Medication List</textDescription>
+      </code>
+      <reviewedUpon>
+        <code>6</code>
+        <codingSchemeName>Med_List_Reviewed_Upon_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient (Post-Consultation)</textDescription>
+      </reviewedUpon>
+      <sourceOfMedicationList>
+        <code>2</code>
+        <codingSchemeName>Med_List_Source_(NEHR)</codingSchemeName>
+        <textDescription>Clinical Records (reconciled with patient self-report)</textDescription>
+      </sourceOfMedicationList>
+      <source>
+        <practitoner>
+          <identifier>03009J</identifier>
+          <name>PHILIP KOH</name>
+          <practitonerRole>
+            <managingOrganization>
+              <identifier>9403258</identifier>
+            </managingOrganization>
+          </practitonerRole>
+        </practitoner>
+      </source>
+      <medicalAlert />
+      <drugAllergy />
+      <notesforHCP>
+        <medicationManagementIssues>
+          <code>Active</code>
+          <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+          <textDescription>Active</textDescription>
+        </medicationManagementIssues>
+      </notesforHCP>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>000251ad-57af-4f0d-b7d4-d152c62f30261</identifier>
+            <sequenceNo>1</sequenceNo>
+            <dateAsserted>2026-10-13T22:36:51.0243813+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Vit D 1000 IU</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Every morning</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:36:51.0243805+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>0002bd13-b982-4395-ac40-0bd7e3e08a081</identifier>
+            <sequenceNo>2</sequenceNo>
+            <dateAsserted>2026-10-13T22:36:51.0279656+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Trajenta 5 mg (Linaglipton 5 mg)</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Every morning</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:36:51.0279551+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>0002e726-e5dc-4a87-80fb-148c17798f521</identifier>
+            <sequenceNo>3</sequenceNo>
+            <dateAsserted>2026-10-13T22:36:51.0324512+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Diamicron MR 60 mg (Gliclazide modified release 60 mg)</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Twice a day</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:36:51.0324503+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+    </list>
+  </putPatientMedicationList>
+  <putPatientMedicationList>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>dicomtest</id>
+        <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>Dicom Test</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>2016-12-27</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <list>
+      <encounter>
+        <identifier>1310202614061322213027244</identifier>
+      </encounter>
+      <date>2026-10-13T22:37:41+06:30</date>
+      <status>
+        <code>Final</code>
+        <codingSchemeName>Med_List_Status_(NEHR)</codingSchemeName>
+        <textDescription>Final</textDescription>
+      </status>
+      <code>
+        <code>PML</code>
+        <codingSchemeName>Med_List_Type_(NEHR)</codingSchemeName>
+        <textDescription>Patient Medication List</textDescription>
+      </code>
+      <reviewedUpon>
+        <code>6</code>
+        <codingSchemeName>Med_List_Reviewed_Upon_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient (Post-Consultation)</textDescription>
+      </reviewedUpon>
+      <sourceOfMedicationList>
+        <code>2</code>
+        <codingSchemeName>Med_List_Source_(NEHR)</codingSchemeName>
+        <textDescription>Clinical Records (reconciled with patient self-report)</textDescription>
+      </sourceOfMedicationList>
+      <source>
+        <practitoner>
+          <identifier>03009J</identifier>
+          <name>PHILIP KOH</name>
+          <practitonerRole>
+            <managingOrganization>
+              <identifier>9403258</identifier>
+            </managingOrganization>
+          </practitonerRole>
+        </practitoner>
+      </source>
+      <medicalAlert />
+      <drugAllergy />
+      <notesforHCP>
+        <medicationManagementIssues>
+          <code>Active</code>
+          <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+          <textDescription>Active</textDescription>
+        </medicationManagementIssues>
+      </notesforHCP>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>0003e15a-c01c-4321-85ea-db1f238bf20a1</identifier>
+            <sequenceNo>1</sequenceNo>
+            <dateAsserted>2026-10-13T22:38:42.5201869+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Clopidogrel 75</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Every morning</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:38:42.5201844+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>00047e8a-65e3-4486-a021-071d5167fdc11</identifier>
+            <sequenceNo>2</sequenceNo>
+            <dateAsserted>2026-10-13T22:38:42.5261101+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Heptral 400 mg</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>When necessary</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:38:42.5261084+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+      <entry>
+        <date>2026-10-13</date>
+        <item>
+          <medicationStatement>
+            <identifier>0004e4a2-a567-40e7-a5ba-f370a1ef2f7f1</identifier>
+            <sequenceNo>3</sequenceNo>
+            <dateAsserted>2026-10-13T22:38:42.5308691+06:30</dateAsserted>
+            <status>
+              <code>Active</code>
+              <codingSchemeName>Med_List_Item_Status_(NEHR)</codingSchemeName>
+              <textDescription>Active</textDescription>
+            </status>
+            <medicationReference>
+              <code>
+                <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+                <textDescription>Glucophage 500mg</textDescription>
+              </code>
+              <product>
+                <form>
+                  <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </form>
+                <strengthUnit />
+              </product>
+            </medicationReference>
+            <dosage>
+              <route>
+                <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+                <textDescription>Oral</textDescription>
+              </route>
+              <timing>
+                <code>
+                  <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+                  <textDescription>Twice a day</textDescription>
+                </code>
+              </timing>
+              <quantityRange>
+                <low>
+                  <value>1</value>
+                </low>
+                <unit>
+                  <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+                  <textDescription>Tab</textDescription>
+                </unit>
+              </quantityRange>
+            </dosage>
+            <reasonForUseCodeableConcept />
+            <informationSource>
+              <practitoner>
+                <identifier>03009J</identifier>
+                <name>PHILIP KOH</name>
+                <practitonerRole>
+                  <managingOrganization>
+                    <identifier>9403258</identifier>
+                  </managingOrganization>
+                </practitonerRole>
+              </practitoner>
+            </informationSource>
+            <supportingInformation>
+              <medicationOrder>
+                <prescriber>
+                  <practitonerRole>
+                    <managingOrganization />
+                  </practitonerRole>
+                  <dispenseRequest>
+                    <quantity>
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </quantity>
+                    <expectedSupplyDuration>
+                      <value />
+                      <unit>
+                        <code>Non-reconciled PPL</code>
+                        <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                        <textDescription>Non-reconciled Patient Problem List</textDescription>
+                      </unit>
+                    </expectedSupplyDuration>
+                  </dispenseRequest>
+                </prescriber>
+                <dateWritten>2026-10-13T22:38:42.5308673+06:30</dateWritten>
+                <dispenseRequest>
+                  <quantity>
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </quantity>
+                  <expectedSupplyDuration>
+                    <value />
+                    <unit>
+                      <code>Non-reconciled PPL</code>
+                      <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                      <textDescription>Non-reconciled Patient Problem List</textDescription>
+                    </unit>
+                  </expectedSupplyDuration>
+                </dispenseRequest>
+              </medicationOrder>
+              <medicationDispense>
+                <quantity>
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </quantity>
+                <daysSupply>
+                  <value />
+                  <unit>
+                    <code>Non-reconciled PPL</code>
+                    <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                    <textDescription>Non-reconciled Patient Problem List</textDescription>
+                  </unit>
+                </daysSupply>
+                <authorizingPrescription>
+                  <prescriber>
+                    <practitonerRole>
+                      <managingOrganization />
+                    </practitonerRole>
+                    <dispenseRequest>
+                      <quantity>
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </quantity>
+                      <expectedSupplyDuration>
+                        <value />
+                        <unit>
+                          <code>Non-reconciled PPL</code>
+                          <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
+                          <textDescription>Non-reconciled Patient Problem List</textDescription>
+                        </unit>
+                      </expectedSupplyDuration>
+                    </dispenseRequest>
+                  </prescriber>
+                </authorizingPrescription>
+              </medicationDispense>
+            </supportingInformation>
+          </medicationStatement>
+        </item>
+      </entry>
+    </list>
+  </putPatientMedicationList>
 </PutPatientMedicationList>

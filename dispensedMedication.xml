@@ -5,151 +5,2473 @@
       <srcInstitution>9403258</srcInstitution>
       <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
       <srcApplication>MDX-GCMS</srcApplication>
-      <msgID>b54df111-b970-4e6b-a</msgID>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
       <msgSequenceID>1</msgSequenceID>
-      <msgDateTime>2026-10-13T13:16:35+08:00</msgDateTime>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
     </controlHeader>
     <patient>
       <identification>
-        <id>X2696201</id>
-        <MRNNumber>MDX-GCMS^13032416</MRNNumber>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
         <type>SP</type>
       </identification>
       <name>
-        <value>UTOMO HIENDRO</value>
+        <value>ECHO TEST PAT</value>
         <title>Mr.</title>
       </name>
-      <dateOfBirth>1955-01-06</dateOfBirth>
-      <gender>D</gender>
-      <nationality>ID</nationality>
-      <race />
-      <language>Bahasa</language>
-      <maritalStatus>2</maritalStatus>
-      <occupation />
-    </patient>
-    <medicationDispensed>
-      <recordIdentifier>dsp-rec-00423735-ad16-466b-bbbc-0d234c51ff801</recordIdentifier>
-      <eventId>1310202608201218013032416</eventId>
-      <dispenseID>MDX-GCMS-DSP-00423735-ad16-466b-bbbc-0d234c51ff801</dispenseID>
-      <sourceGroupingID>visit-1310202608201218013032416</sourceGroupingID>
-      <dispenseDateTime>2026-10-13T13:16:36+08:00</dispenseDateTime>
-      <dispensingLocation>
-        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
-      </dispensingLocation>
-      <dispenseType>
-        <code>Outpatient</code>
-        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
-        <textDescription>Outpatient</textDescription>
-      </dispenseType>
-      <dispenseStatus>
-        <code>Completed</code>
-        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
-        <textDescription>Completed</textDescription>
-      </dispenseStatus>
-      <dispensedBy />
-      <authorizedBy>
-        <id>03009J</id>
-        <name>PHILIP KOH</name>
-      </authorizedBy>
-      <orderedBy>
-        <name>PHILIP KOH</name>
-      </orderedBy>
-      <orderingLocation>
-        <textDescription>Consultation Room 1</textDescription>
-      </orderingLocation>
-    </medicationDispensed>
-  </putDispensedMedications>
-  <putDispensedMedications>
-    <controlHeader>
-      <srcInstitution>9403258</srcInstitution>
-      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
-      <srcApplication>MDX-GCMS</srcApplication>
-      <msgID>aeb7c136-def0-4eb5-b</msgID>
-      <msgSequenceID>2</msgSequenceID>
-      <msgDateTime>2026-10-13T13:16:39+08:00</msgDateTime>
-    </controlHeader>
-    <patient>
-      <identification>
-        <id>S0074324J</id>
-        <MRNNumber>MDX-GCMS^13026755</MRNNumber>
-        <type>SP</type>
-      </identification>
-      <name>
-        <value>HO KIAU SENG</value>
-        <title>Mr.</title>
-      </name>
-      <dateOfBirth>1945-06-12</dateOfBirth>
+      <dateOfBirth>1986-10-29</dateOfBirth>
       <gender>D</gender>
       <nationality>SG</nationality>
-      <race />
-      <language />
-      <maritalStatus>2</maritalStatus>
-      <occupation />
-    </patient>
-    <medicationDispensed>
-      <recordIdentifier>dsp-rec-0cb4b56b-4548-48fa-a09d-44c62950646a1</recordIdentifier>
-      <eventId>1310202608195203413026755</eventId>
-      <dispenseID>MDX-GCMS-DSP-0cb4b56b-4548-48fa-a09d-44c62950646a1</dispenseID>
-      <sourceGroupingID>visit-1310202608195203413026755</sourceGroupingID>
-      <dispenseDateTime>2026-10-13T13:16:39+08:00</dispenseDateTime>
-      <dispensingLocation>
-        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
-      </dispensingLocation>
-      <dispenseType>
-        <code>Outpatient</code>
-        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
-        <textDescription>Outpatient</textDescription>
-      </dispenseType>
-      <dispenseStatus>
-        <code>Completed</code>
-        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
-        <textDescription>Completed</textDescription>
-      </dispenseStatus>
-      <dispensedBy />
-      <authorizedBy>
-        <id>03009J</id>
-        <name>PHILIP KOH</name>
-      </authorizedBy>
-      <orderedBy>
-        <name>PHILIP KOH</name>
-      </orderedBy>
-      <orderingLocation>
-        <textDescription>Consultation Room 1</textDescription>
-      </orderingLocation>
-    </medicationDispensed>
-  </putDispensedMedications>
-  <putDispensedMedications>
-    <controlHeader>
-      <srcInstitution>9403258</srcInstitution>
-      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
-      <srcApplication>MDX-GCMS</srcApplication>
-      <msgID>3e69281d-dec7-4bfe-8</msgID>
-      <msgSequenceID>3</msgSequenceID>
-      <msgDateTime>2026-10-13T13:16:41+08:00</msgDateTime>
-    </controlHeader>
-    <patient>
-      <identification>
-        <id>S2632782B</id>
-        <MRNNumber>MDX-GCMS^13019443</MRNNumber>
-        <type>SP</type>
-      </identification>
-      <name>
-        <value>CHU YUT CHEW</value>
-        <title>Mrs.</title>
-      </name>
-      <dateOfBirth>1960-05-31</dateOfBirth>
-      <gender>C</gender>
-      <nationality>SG</nationality>
-      <race />
+      <race>HN</race>
       <language>EL</language>
-      <maritalStatus />
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
     </patient>
     <medicationDispensed>
-      <recordIdentifier>dsp-rec-0f5ea4e6-8703-440d-989f-b45b96151a0f1</recordIdentifier>
-      <eventId>1310202608204702513019443</eventId>
-      <dispenseID>MDX-GCMS-DSP-0f5ea4e6-8703-440d-989f-b45b96151a0f1</dispenseID>
-      <sourceGroupingID>visit-1310202608204702513019443</sourceGroupingID>
-      <dispenseDateTime>2026-10-13T13:16:42+08:00</dispenseDateTime>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000253a-e66b-435a-9565-d45b6511d1891</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:22+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Entresto 50mg (Sacubitril/Valsartan)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00004092-cd89-4e71-98f3-4a425e1063b11</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Herbesser R 100mg(Diltiazem HCl SR 100 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00008e94-8acc-4570-bf52-b479ffde7f911</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once a week</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0000a445-001d-4029-8543-b9d9c7312ce51</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Vastarel XR 80 mg (Trimetazidine 80 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with food </dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>5</sequenceNo>
+        <itemId>0000a945-3651-42c3-9c38-4ba41d3b2aa71</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once weekly</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <dispenseID>MDX-GCMS-DSP-031f419f-6b14-46fe-824a-855734b4f95c1</dispenseID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:36:06+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000253a-e66b-435a-9565-d45b6511d1891</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:22+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Entresto 50mg (Sacubitril/Valsartan)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00004092-cd89-4e71-98f3-4a425e1063b11</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Herbesser R 100mg(Diltiazem HCl SR 100 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00008e94-8acc-4570-bf52-b479ffde7f911</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once a week</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0000a445-001d-4029-8543-b9d9c7312ce51</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Vastarel XR 80 mg (Trimetazidine 80 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with food </dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>5</sequenceNo>
+        <itemId>0000a945-3651-42c3-9c38-4ba41d3b2aa71</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once weekly</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <dispenseID>MDX-GCMS-DSP-031f419f-6b14-46fe-824a-855734b4f95c1</dispenseID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:36:06+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000253a-e66b-435a-9565-d45b6511d1891</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:22+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Entresto 50mg (Sacubitril/Valsartan)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00004092-cd89-4e71-98f3-4a425e1063b11</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Herbesser R 100mg(Diltiazem HCl SR 100 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00008e94-8acc-4570-bf52-b479ffde7f911</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once a week</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0000a445-001d-4029-8543-b9d9c7312ce51</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Vastarel XR 80 mg (Trimetazidine 80 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with food </dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>5</sequenceNo>
+        <itemId>0000a945-3651-42c3-9c38-4ba41d3b2aa71</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once weekly</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <dispenseID>MDX-GCMS-DSP-031f419f-6b14-46fe-824a-855734b4f95c1</dispenseID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:36:06+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000253a-e66b-435a-9565-d45b6511d1891</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:22+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Entresto 50mg (Sacubitril/Valsartan)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00004092-cd89-4e71-98f3-4a425e1063b11</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Herbesser R 100mg(Diltiazem HCl SR 100 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00008e94-8acc-4570-bf52-b479ffde7f911</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once a week</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0000a445-001d-4029-8543-b9d9c7312ce51</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Vastarel XR 80 mg (Trimetazidine 80 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with food </dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>5</sequenceNo>
+        <itemId>0000a945-3651-42c3-9c38-4ba41d3b2aa71</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once weekly</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <dispenseID>MDX-GCMS-DSP-031f419f-6b14-46fe-824a-855734b4f95c1</dispenseID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:36:06+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000253a-e66b-435a-9565-d45b6511d1891</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:22+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Entresto 50mg (Sacubitril/Valsartan)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00004092-cd89-4e71-98f3-4a425e1063b11</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Herbesser R 100mg(Diltiazem HCl SR 100 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00008e94-8acc-4570-bf52-b479ffde7f911</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once a week</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0000a445-001d-4029-8543-b9d9c7312ce51</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Vastarel XR 80 mg (Trimetazidine 80 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with food </dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>5</sequenceNo>
+        <itemId>0000a945-3651-42c3-9c38-4ba41d3b2aa71</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:36:25+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>D-Cure (Vitamin D3)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Ampoule</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Ampoule</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>As instructed</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take once weekly</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <dispenseID>MDX-GCMS-DSP-031f419f-6b14-46fe-824a-855734b4f95c1</dispenseID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:36:06+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S8907863</id>
+        <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>TestP2025</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1987-01-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b613-f04b-43a4-87b9-9d5acbddbd2d1</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Crestor 5 mg (Rosuvastatin 5 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00012457-572d-48d0-a334-3b3f174d1f711</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Exforge 160/5 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>000217cd-fb62-4d94-ba22-6f9ae5e6835e1</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Janumet XR 50/500 (Metformin/Sitagliptin 50/500 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
+      <eventId>1310202614064021513033148</eventId>
+      <dispenseID>MDX-GCMS-DSP-8685086f-7826-4384-a7e6-0654449b54541</dispenseID>
+      <sourceGroupingID>visit-1310202614064021513033148</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:37:12+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S8907863</id>
+        <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>TestP2025</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1987-01-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b613-f04b-43a4-87b9-9d5acbddbd2d1</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Crestor 5 mg (Rosuvastatin 5 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00012457-572d-48d0-a334-3b3f174d1f711</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Exforge 160/5 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>000217cd-fb62-4d94-ba22-6f9ae5e6835e1</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Janumet XR 50/500 (Metformin/Sitagliptin 50/500 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
+      <eventId>1310202614064021513033148</eventId>
+      <dispenseID>MDX-GCMS-DSP-8685086f-7826-4384-a7e6-0654449b54541</dispenseID>
+      <sourceGroupingID>visit-1310202614064021513033148</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:37:12+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S8907863</id>
+        <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>TestP2025</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1987-01-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b613-f04b-43a4-87b9-9d5acbddbd2d1</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Crestor 5 mg (Rosuvastatin 5 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>00012457-572d-48d0-a334-3b3f174d1f711</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Exforge 160/5 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>000217cd-fb62-4d94-ba22-6f9ae5e6835e1</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:37:39+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Janumet XR 50/500 (Metformin/Sitagliptin 50/500 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
+      <eventId>1310202614064021513033148</eventId>
+      <dispenseID>MDX-GCMS-DSP-8685086f-7826-4384-a7e6-0654449b54541</dispenseID>
+      <sourceGroupingID>visit-1310202614064021513033148</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:37:12+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>dicomtest</id>
+        <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>Dicom Test</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>2016-12-27</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0002656f-5f64-4f1d-89da-e95f58ce51371</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Ezetrol 10 mg (Ezetimibe 10 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0002aad5-e792-4900-a695-3d430d6280c91</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Apo-Clopidogrel 75 mg (Clopidogrel Bisulfate 75 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with or without food</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00042fae-5516-4dcd-ad05-5a6754fa91201</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Lipitor 20 mg (Atorvastatin 20 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
+      <eventId>1310202614061322213027244</eventId>
+      <dispenseID>MDX-GCMS-DSP-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</dispenseID>
+      <sourceGroupingID>visit-1310202614061322213027244</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:38:45+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>dicomtest</id>
+        <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>Dicom Test</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>2016-12-27</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0002656f-5f64-4f1d-89da-e95f58ce51371</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Ezetrol 10 mg (Ezetimibe 10 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0002aad5-e792-4900-a695-3d430d6280c91</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Apo-Clopidogrel 75 mg (Clopidogrel Bisulfate 75 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with or without food</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00042fae-5516-4dcd-ad05-5a6754fa91201</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Lipitor 20 mg (Atorvastatin 20 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
+      <eventId>1310202614061322213027244</eventId>
+      <dispenseID>MDX-GCMS-DSP-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</dispenseID>
+      <sourceGroupingID>visit-1310202614061322213027244</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:38:45+06:30</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>dicomtest</id>
+        <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>Dicom Test</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>2016-12-27</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationDispensed>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0002656f-5f64-4f1d-89da-e95f58ce51371</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Ezetrol 10 mg (Ezetimibe 10 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0002aad5-e792-4900-a695-3d430d6280c91</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Apo-Clopidogrel 75 mg (Clopidogrel Bisulfate 75 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>Take with or without food</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>00042fae-5516-4dcd-ad05-5a6754fa91201</itemId>
+        <medicationItemDispensedDate>2026-10-13T22:38:57+06:30</medicationItemDispensedDate>
+        <medicationItemStatus>
+          <code>Completed</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>Completed</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Lipitor 20 mg (Atorvastatin 20 mg)</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>dsp-rec-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
+      <eventId>1310202614061322213027244</eventId>
+      <dispenseID>MDX-GCMS-DSP-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</dispenseID>
+      <sourceGroupingID>visit-1310202614061322213027244</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T22:38:45+06:30</dispenseDateTime>
       <dispensingLocation>
         <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
       </dispensingLocation>

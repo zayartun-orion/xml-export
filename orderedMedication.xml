@@ -5,9 +5,9 @@
       <srcInstitution>9403258</srcInstitution>
       <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
       <srcApplication>MDX-GCMS</srcApplication>
-      <msgID>abaef2d8-cc0b-4370-a</msgID>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
       <msgSequenceID>1</msgSequenceID>
-      <msgDateTime>2026-10-13T14:49:06+06:30</msgDateTime>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
     </controlHeader>
     <patient>
       <identification>
@@ -28,11 +28,183 @@
       <occupation>26511</occupation>
     </patient>
     <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b72b-958e-4a07-bd3b-b40c2e265ac71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:13+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Olmetec 20 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>3</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0001888f-01c6-4683-bfd0-8efb801ec0971</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:38+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Motilium 10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>0001ae21-73e2-4d6f-9a3d-54d84733a46b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:48+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Warfarin (Marevan) 2mg, 2mg and 1.5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0006dbcc-16de-4f7b-959d-f33a04f53d9b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:36:02+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Cialis 5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
       <recordIdentifier>ord-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
       <eventId>1310202614053410913023442</eventId>
       <orderID>1310202614053410913023442</orderID>
       <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
-      <orderDateTime>2026-10-13T14:49:18+06:30</orderDateTime>
+      <orderDateTime>2026-10-13T22:35:04+06:30</orderDateTime>
       <orderingInstitution>9403258</orderingInstitution>
       <orderingLocation>
         <textDescription>Consultation Room 1</textDescription>
@@ -62,9 +234,696 @@
       <srcInstitution>9403258</srcInstitution>
       <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
       <srcApplication>MDX-GCMS</srcApplication>
-      <msgID>92af708f-f370-4b02-8</msgID>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b72b-958e-4a07-bd3b-b40c2e265ac71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:13+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Olmetec 20 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>3</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0001888f-01c6-4683-bfd0-8efb801ec0971</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:38+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Motilium 10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>0001ae21-73e2-4d6f-9a3d-54d84733a46b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:48+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Warfarin (Marevan) 2mg, 2mg and 1.5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0006dbcc-16de-4f7b-959d-f33a04f53d9b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:36:02+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Cialis 5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <orderID>1310202614053410913023442</orderID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:35:04+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b72b-958e-4a07-bd3b-b40c2e265ac71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:13+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Olmetec 20 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>3</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0001888f-01c6-4683-bfd0-8efb801ec0971</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:38+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Motilium 10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>0001ae21-73e2-4d6f-9a3d-54d84733a46b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:48+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Warfarin (Marevan) 2mg, 2mg and 1.5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0006dbcc-16de-4f7b-959d-f33a04f53d9b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:36:02+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Cialis 5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <orderID>1310202614053410913023442</orderID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:35:04+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>9fc0b796-3ed2-4b26-8</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T22:34:01+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>1234QWERTY123</id>
+        <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>ECHO TEST PAT</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1986-10-29</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0000b72b-958e-4a07-bd3b-b40c2e265ac71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:13+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Olmetec 20 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>3</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>0001888f-01c6-4683-bfd0-8efb801ec0971</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:38+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Motilium 10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>0001ae21-73e2-4d6f-9a3d-54d84733a46b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:35:48+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Warfarin (Marevan) 2mg, 2mg and 1.5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>4</sequenceNo>
+        <itemId>0006dbcc-16de-4f7b-959d-f33a04f53d9b1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:36:02+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Cialis 5 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
+      <eventId>1310202614053410913023442</eventId>
+      <orderID>1310202614053410913023442</orderID>
+      <sourceGroupingID>visit-1310202614053410913023442</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:35:04+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
       <msgSequenceID>2</msgSequenceID>
-      <msgDateTime>2026-10-13T14:49:51+06:30</msgDateTime>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
     </controlHeader>
     <patient>
       <identification>
@@ -85,11 +944,140 @@
       <occupation>26511</occupation>
     </patient>
     <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0009f4e5-4456-4883-86ac-51155d19e7c21</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Lorazepam 1 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>000b30a6-4f60-4b6a-91be-736f336896001</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Euthyrox 75 mcg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>From Monday to Sat only</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>000c1667-79b0-4357-854e-e5175445eaeb1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>ExForge 160/10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>W</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Week()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
       <recordIdentifier>ord-rec-8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
       <eventId>1310202614064021513033148</eventId>
       <orderID>1310202614064021513033148</orderID>
       <sourceGroupingID>visit-1310202614064021513033148</sourceGroupingID>
-      <orderDateTime>2026-10-13T14:50:09+06:30</orderDateTime>
+      <orderDateTime>2026-10-13T22:36:51+06:30</orderDateTime>
       <orderingInstitution>9403258</orderingInstitution>
       <orderingLocation>
         <textDescription>Consultation Room 1</textDescription>
@@ -119,9 +1107,381 @@
       <srcInstitution>9403258</srcInstitution>
       <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
       <srcApplication>MDX-GCMS</srcApplication>
-      <msgID>a7e6de1c-d441-4e7a-9</msgID>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S8907863</id>
+        <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>TestP2025</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1987-01-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0009f4e5-4456-4883-86ac-51155d19e7c21</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Lorazepam 1 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>000b30a6-4f60-4b6a-91be-736f336896001</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Euthyrox 75 mcg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>From Monday to Sat only</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>000c1667-79b0-4357-854e-e5175445eaeb1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>ExForge 160/10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>W</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Week()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
+      <eventId>1310202614064021513033148</eventId>
+      <orderID>1310202614064021513033148</orderID>
+      <sourceGroupingID>visit-1310202614064021513033148</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:36:51+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>4fe3e7b4-d9da-4bfe-a</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T22:36:28+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S8907863</id>
+        <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>TestP2025</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1987-01-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>0009f4e5-4456-4883-86ac-51155d19e7c21</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Lorazepam 1 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every night</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>000b30a6-4f60-4b6a-91be-736f336896001</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Euthyrox 75 mcg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction>From Monday to Sat only</dosageInstruction>
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>000c1667-79b0-4357-854e-e5175445eaeb1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:37:12+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>ExForge 160/10 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>2</textDescription>
+        </duration>
+        <durationUOM>
+          <code>W</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Week()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
+      <eventId>1310202614064021513033148</eventId>
+      <orderID>1310202614064021513033148</orderID>
+      <sourceGroupingID>visit-1310202614064021513033148</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:36:51+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
       <msgSequenceID>3</msgSequenceID>
-      <msgDateTime>2026-10-13T14:50:39+06:30</msgDateTime>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
     </controlHeader>
     <patient>
       <identification>
@@ -142,11 +1502,512 @@
       <occupation>26511</occupation>
     </patient>
     <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>000ee6e5-576e-4230-8fbb-e94ce10b40b71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Marevan 5mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>001088de-6993-4eb9-9c3e-a594fd169d6f1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Metformin 750 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>001c0b89-d08f-4638-b158-3b453eb50bd41</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Atacand 2 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
       <recordIdentifier>ord-rec-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
       <eventId>1310202614061322213027244</eventId>
       <orderID>1310202614061322213027244</orderID>
       <sourceGroupingID>visit-1310202614061322213027244</sourceGroupingID>
-      <orderDateTime>2026-10-13T14:50:45+06:30</orderDateTime>
+      <orderDateTime>2026-10-13T22:38:42+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>dicomtest</id>
+        <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>Dicom Test</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>2016-12-27</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>000ee6e5-576e-4230-8fbb-e94ce10b40b71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Marevan 5mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>001088de-6993-4eb9-9c3e-a594fd169d6f1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Metformin 750 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>001c0b89-d08f-4638-b158-3b453eb50bd41</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Atacand 2 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
+      <eventId>1310202614061322213027244</eventId>
+      <orderID>1310202614061322213027244</orderID>
+      <sourceGroupingID>visit-1310202614061322213027244</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:38:42+06:30</orderDateTime>
+      <orderingInstitution>9403258</orderingInstitution>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+      <orderType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </orderType>
+      <orderStatus>
+        <code>New</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>New</textDescription>
+      </orderStatus>
+      <orderBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </orderBy>
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+    </medicationOrdered>
+  </putOrderedMedications>
+  <putOrderedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>e51f9369-5dc6-469f-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T22:37:40+06:30</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>dicomtest</id>
+        <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>Dicom Test</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>2016-12-27</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race>HN</race>
+      <language>EL</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation>26511</occupation>
+    </patient>
+    <medicationOrdered>
+      <MedicationItem>
+        <sequenceNo>1</sequenceNo>
+        <itemId>000ee6e5-576e-4230-8fbb-e94ce10b40b71</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Marevan 5mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>1</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>2</sequenceNo>
+        <itemId>001088de-6993-4eb9-9c3e-a594fd169d6f1</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Metformin 750 mg</textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>6</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <MedicationItem>
+        <sequenceNo>3</sequenceNo>
+        <itemId>001c0b89-d08f-4638-b158-3b453eb50bd41</itemId>
+        <medicationItemOrderedDate>2026-10-13T22:38:45+06:30</medicationItemOrderedDate>
+        <medicationItemStatus>
+          <code>New</code>
+          <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+          <textDescription>New</textDescription>
+        </medicationItemStatus>
+        <medicationName>
+          <codingSchemeName>Singapore Drug Dictionary</codingSchemeName>
+          <textDescription>Atacand 2 mg </textDescription>
+        </medicationName>
+        <doseForm>
+          <codingSchemeName>Med_DoseForm_(NEHR)</codingSchemeName>
+          <textDescription>Tab</textDescription>
+        </doseForm>
+        <doseQuantity>
+          <lowValue>1</lowValue>
+          <lowUnit>
+            <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+            <textDescription>Tab</textDescription>
+          </lowUnit>
+        </doseQuantity>
+        <frequency>
+          <codingSchemeName>Med_Frequency_(NEHR)</codingSchemeName>
+          <textDescription>Every morning</textDescription>
+        </frequency>
+        <routeOfAdministration>
+          <codingSchemeName>Med_RouteofAdmin_(NEHR)</codingSchemeName>
+          <textDescription>Oral</textDescription>
+        </routeOfAdministration>
+        <duration>
+          <textDescription>4</textDescription>
+        </duration>
+        <durationUOM>
+          <code>M</code>
+          <codingSchemeName>Med_UnitofMeasure_(NEHR)</codingSchemeName>
+          <textDescription>Month()</textDescription>
+        </durationUOM>
+        <dosageInstruction />
+        <reasonForMedication />
+      </MedicationItem>
+      <recordIdentifier>ord-rec-b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
+      <eventId>1310202614061322213027244</eventId>
+      <orderID>1310202614061322213027244</orderID>
+      <sourceGroupingID>visit-1310202614061322213027244</sourceGroupingID>
+      <orderDateTime>2026-10-13T22:38:42+06:30</orderDateTime>
       <orderingInstitution>9403258</orderingInstitution>
       <orderingLocation>
         <textDescription>Consultation Room 1</textDescription>
