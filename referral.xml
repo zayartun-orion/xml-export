@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PutComposition xmlns:NEHR="http://www.mohh.com/nehr">
+   <putComposition>
+      <controlHeader>
+         <srcInstitution>9403258</srcInstitution>
+         <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+         <srcApplication>MDX-GCMS</srcApplication>
+         <msgID>c463a98b-256b-4339-8</msgID>
+         <msgSequenceID>1</msgSequenceID>
+         <msgDateTime>2026-10-13T14:21:09+06:30</msgDateTime>
+      </controlHeader>
+      <patient>
+         <identification>
+            <id>1234QWERTY123</id>
+            <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+            <type>SP</type>
+         </identification>
+         <name>
+            <value>ECHO TEST PAT</value>
+            <title>Mr.</title>
+         </name>
+         <dateOfBirth>1986-10-29</dateOfBirth>
+         <gender>D</gender>
+         <nationality>SG</nationality>
+         <race>HN</race>
+         <language>EL</language>
+         <maritalStatus>2</maritalStatus>
+         <occupation>26511</occupation>
+      </patient>
+      <composition>
+         <identifier>031f419f-6b14-46fe-824a-855734b4f95c1</identifier>
+         <date>2026-10-13T14:21:14+06:30</date>
+         <createdDate>2026-10-13T14:21:14+06:30</createdDate>
+         <type>
+            <code>ReferralNote</code>
+            <codingSchemeName>Document_Type_(NEHR)</codingSchemeName>
+            <textDescription>Referral Note</textDescription>
+         </type>
+         <title>Referral to National Heart Centre Singapore - Electrophysiology</title>
+         <status>
+            <code>Final</code>
+            <codingSchemeName>Document_Status_(NEHR)</codingSchemeName>
+            <textDescription>Finalized</textDescription>
+         </status>
+         <creator>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+            </practitoner>
+            <system/>
+         </creator>
+         <author>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+            </practitoner>
+         </author>
+         <custodian>
+            <identifier>9403258</identifier>
+            <location>
+               <name>The Heart Clinic</name>
+            </location>
+         </custodian>
+         <encounter>
+            <identifier>1310202614053410913023442</identifier>
+            <period>
+               <start>2026-10-13T14:10:39+06:30</start>
+               <end>2026-10-13T14:51:09+06:30</end>
+            </period>
+         </encounter>
+         <section>
+            <code>
+               <code>4</code>
+               <codingSchemeName>Section_Code_(NEHR)</codingSchemeName>
+               <textDescription>Referral Letter</textDescription>
+            </code>
+            <content>
+               <referralRequest>
+                  <status>
+                     <code>1</code>
+                     <codingSchemeName>Referral_Status_(NEHR)</codingSchemeName>
+                     <textDescription>Authorized</textDescription>
+                  </status>
+                  <identifier>MDX-GCMS-REF-000000412</identifier>
+                  <type>
+                     <code>4</code>
+                     <codingSchemeName>Referral_Type_(NEHR)</codingSchemeName>
+                     <textDescription>Consultation</textDescription>
+                  </type>
+                  <specialty>
+                     <code>NEHR_SS_0002</code>
+                     <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+                     <textDescription>Cardiology</textDescription>
+                  </specialty>
+                  <requester>
+                     <practitoner>
+                        <identifier>03009J</identifier>
+                        <name>PHILIP KOH</name>
+                     </practitoner>
+                     <organisation>
+                        <identifier>9403258</identifier>
+                        <name>The Heart Clinic</name>
+                        <type>
+                           <code>Cardiology</code>
+                           <codingSchemeName>Document_Type_(NEHR)</codingSchemeName>
+                           <textDescription>Cardiology report</textDescription>
+                        </type>
+                     </organisation>
+                  </requester>
+                  <recipient>
+                     <organization>
+                        <identifier>0116</identifier>
+                        <name>National Heart Centre Singapore</name>
+                        <type>
+                           <code>2</code>
+                           <codingSchemeName>Organisation_Type_(NEHR)</codingSchemeName>
+                           <textDescription>Healthcare Provider</textDescription>
+                        </type>
+                     </organization>
+                  </recipient>
+                  <encounter>
+                     <identifier>1310202614053410913023442</identifier>
+                     <period>
+                        <start>2026-10-13T14:21:14+06:30</start>
+                        <end>2026-10-13T14:51:14+06:30</end>
+                     </period>
+                  </encounter>
+                  <dateSent>2026-10-13T14:21:14+06:30</dateSent>
+                  <reason/>
+                  <serviceRequested>
+                     <code>NEHR_SS_0002</code>
+                     <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+                     <textDescription>Cardiology - Electrophysiology</textDescription>
+                  </serviceRequested>
+               </referralRequest>
+            </content>
+         </section>
+         <section>
+            <title>Patient Information</title>
+            <code>
+               <textDescription>Patient Information</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Full Name</name>
+                        <text>ECHO TEST PAT</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>NRIC</name>
+                        <text>1234QWERTY123</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Gender</name>
+                        <text>Male</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+               </other>
+            </content>
+         </section>
+         <section>
+            <title>Clinician Information</title>
+            <code>
+               <textDescription>Clinician Information</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Referring Clinician</name>
+                        <text>PHILIP KOH (MCR 03009J)</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Clinic</name>
+                        <text>The Heart Clinic</text>
+                     </notesItem>
+                  </extension>
+               </other>
+            </content>
+         </section>
+         <section>
+            <title>Referral Information</title>
+            <code>
+               <textDescription>Referral Information</textDescription>
+            </code>
+            <content/>
+         </section>
+         <section>
+            <title>Referral Letter Attachment</title>
+            <code>
+               <textDescription>Referral Letter Attachment</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>File Attachment</textDescription>
+                  </code>
+                  <extension>
+                     <fileAttachment>
+                        <contentType>
+                           <code>1</code>
+                           <codingSchemeName>Attachment_Content_Type_(NEHR)</codingSchemeName>
+                        </contentType>
+                        <langauge>
+                           <code>EN</code>
+                           <codingSchemeName>Attachment_Language_(NEHR)</codingSchemeName>
+                        </langauge>
+                        <file/>
+                        <title>Referral Letter</title>
+                        <sequenceId>1</sequenceId>
+                     </fileAttachment>
+                  </extension>
+               </other>
+            </content>
+         </section>
+      </composition>
+   </putComposition>
+   <putComposition>
+      <controlHeader>
+         <srcInstitution>9403258</srcInstitution>
+         <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+         <srcApplication>MDX-GCMS</srcApplication>
+         <msgID>1a177b8f-f677-4209-9</msgID>
+         <msgSequenceID>2</msgSequenceID>
+         <msgDateTime>2026-10-13T14:22:04+06:30</msgDateTime>
+      </controlHeader>
+      <patient>
+         <identification>
+            <id>S8907863</id>
+            <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+            <type>SP</type>
+         </identification>
+         <name>
+            <value>TestP2025</value>
+            <title>Mr.</title>
+         </name>
+         <dateOfBirth>1987-01-12</dateOfBirth>
+         <gender>D</gender>
+         <nationality>SG</nationality>
+         <race>HN</race>
+         <language>EL</language>
+         <maritalStatus>2</maritalStatus>
+         <occupation>26511</occupation>
+      </patient>
+      <composition>
+         <identifier>8685086f-7826-4384-a7e6-0654449b54541</identifier>
+         <date>2026-10-13T14:22:08+06:30</date>
+         <createdDate>2026-10-13T14:22:08+06:30</createdDate>
+         <type>
+            <code>ReferralNote</code>
+            <codingSchemeName>Document_Type_(NEHR)</codingSchemeName>
+            <textDescription>Referral Note</textDescription>
+         </type>
+         <title>Referral to National Heart Centre Singapore - Electrophysiology</title>
+         <status>
+            <code>Final</code>
+            <codingSchemeName>Document_Status_(NEHR)</codingSchemeName>
+            <textDescription>Finalized</textDescription>
+         </status>
+         <creator>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+            </practitoner>
+            <system/>
+         </creator>
+         <author>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+            </practitoner>
+         </author>
+         <custodian>
+            <identifier>9403258</identifier>
+            <location>
+               <name>The Heart Clinic</name>
+            </location>
+         </custodian>
+         <encounter>
+            <identifier>1310202614064021513033148</identifier>
+            <period>
+               <start>2026-10-13T14:06:40+06:30</start>
+               <end>14:07:13</end>
+            </period>
+         </encounter>
+         <section>
+            <code>
+               <code>4</code>
+               <codingSchemeName>Section_Code_(NEHR)</codingSchemeName>
+               <textDescription>Referral Letter</textDescription>
+            </code>
+            <content>
+               <referralRequest>
+                  <status>
+                     <code>1</code>
+                     <codingSchemeName>Referral_Status_(NEHR)</codingSchemeName>
+                     <textDescription>Authorized</textDescription>
+                  </status>
+                  <identifier>MDX-GCMS-REF-000000412</identifier>
+                  <type>
+                     <code>4</code>
+                     <codingSchemeName>Referral_Type_(NEHR)</codingSchemeName>
+                     <textDescription>Consultation</textDescription>
+                  </type>
+                  <specialty>
+                     <code>NEHR_SS_0002</code>
+                     <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+                     <textDescription>Cardiology</textDescription>
+                  </specialty>
+                  <requester>
+                     <practitoner>
+                        <identifier>03009J</identifier>
+                        <name>PHILIP KOH</name>
+                     </practitoner>
+                     <organisation>
+                        <identifier>9403258</identifier>
+                        <name>The Heart Clinic</name>
+                        <type>
+                           <code>Cardiology</code>
+                           <codingSchemeName>Document_Type_(NEHR)</codingSchemeName>
+                           <textDescription>Cardiology report</textDescription>
+                        </type>
+                     </organisation>
+                  </requester>
+                  <recipient>
+                     <organization>
+                        <identifier>0116</identifier>
+                        <name>National Heart Centre Singapore</name>
+                        <type>
+                           <code>2</code>
+                           <codingSchemeName>Organisation_Type_(NEHR)</codingSchemeName>
+                           <textDescription>Healthcare Provider</textDescription>
+                        </type>
+                     </organization>
+                  </recipient>
+                  <encounter>
+                     <identifier>1310202614064021513033148</identifier>
+                     <period>
+                        <start>2026-10-13T14:22:08+06:30</start>
+                        <end>2026-10-13T14:52:08+06:30</end>
+                     </period>
+                  </encounter>
+                  <dateSent>2026-10-13T14:22:08+06:30</dateSent>
+                  <reason/>
+                  <serviceRequested>
+                     <code>NEHR_SS_0002</code>
+                     <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+                     <textDescription>Cardiology - Electrophysiology</textDescription>
+                  </serviceRequested>
+               </referralRequest>
+            </content>
+         </section>
+         <section>
+            <title>Patient Information</title>
+            <code>
+               <textDescription>Patient Information</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Full Name</name>
+                        <text>TestP2025</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>NRIC</name>
+                        <text>S8907863</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Gender</name>
+                        <text>Male</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+               </other>
+            </content>
+         </section>
+         <section>
+            <title>Clinician Information</title>
+            <code>
+               <textDescription>Clinician Information</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Referring Clinician</name>
+                        <text>PHILIP KOH (MCR 03009J)</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Clinic</name>
+                        <text>The Heart Clinic</text>
+                     </notesItem>
+                  </extension>
+               </other>
+            </content>
+         </section>
+         <section>
+            <title>Referral Information</title>
+            <code>
+               <textDescription>Referral Information</textDescription>
+            </code>
+            <content/>
+         </section>
+         <section>
+            <title>Referral Letter Attachment</title>
+            <code>
+               <textDescription>Referral Letter Attachment</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>File Attachment</textDescription>
+                  </code>
+                  <extension>
+                     <fileAttachment>
+                        <contentType>
+                           <code>1</code>
+                           <codingSchemeName>Attachment_Content_Type_(NEHR)</codingSchemeName>
+                           <textDescription>pdf</textDescription>
+                        </contentType>
+                        <langauge>
+                           <code>EN</code>
+                           <codingSchemeName>Attachment_Language_(NEHR)</codingSchemeName>
+                           <textDescription>English</textDescription>
+                        </langauge>
+                        <file>JVBERi0xLjcNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFuZyhlbi1VUykgL1N0cnVjdFRyZWVSb290IDExIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4vTWV0YWRhdGEgMjIgMCBSL1ZpZXdlclByZWZlcmVuY2VzIDIzIDAgUj4+DQplbmRvYmoNCjIgMCBvYmoNCjw8L1R5cGUvUGFnZXMvQ291bnQgMS9LaWRzWyAzIDAgUl0gPj4NCmVuZG9iag0KMyAwIG9iag0KPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pi9FeHRHU3RhdGU8PC9HUzcgNyAwIFIvR1M4IDggMCBSPj4vWE9iamVjdDw8L0ltYWdlOSA5IDAgUj4+L1Byb2NTZXRbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXSA+Pi9NZWRpYUJveFsgMCAwIDYxMiA3OTJdIC9Db250ZW50cyA0IDAgUi9Hcm91cDw8L1R5cGUvR3JvdXAvUy9UcmFuc3BhcmVuY3kvQ1MvRGV2aWNlUkdCPj4vVGFicy9TL1N0cnVjdFBhcmVudHMgMD4+DQplbmRvYmoNCjQgMCBvYmoNCjw8L0ZpbHRlci9GbGF0ZURlY29kZS9MZW5ndGggMTc2Pj4NCnN0cmVhbQ0KeJxtjjsLwkAQhPuF/Q9TqsXl7vK4HIQUeRgiCIoHFmIhElNFUf8/eAkKKdxil2GG2Q/BDlkWbMu2gsxzFFWJJ5MUchyrNCQSv43VeHVMxxXuTIVjCtYKSgubwN2YlM9JKMTKCgVtvBHCDT7WHAz6t69EP6n0qxqm0wLLM9yGqfaFeybU2xKYIam/SDoJhU4nrihOhJmjRZGZUMbrDW1CXEeMdrj0nUX1wO/PB0aKMesNCmVuZHN0cmVhbQ0KZW5kb2JqDQo1IDAgb2JqDQo8PC9UeXBlL0ZvbnQvU3VidHlwZS9UcnVlVHlwZS9OYW1lL0YxL0Jhc2VGb250L0JDREVFRStQeWlkYXVuZ3N1L0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZy9Gb250RGVzY3JpcHRvciA2IDAgUi9GaXJzdENoYXIgMzIvTGFzdENo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MDJUMTA6MjM6MzArMDY6MzA8L3htcDpNb2RpZnlEYXRlPjwvcmRmOkRlc2NyaXB0aW9uPgo8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iPgo8eG1wTU06RG9jdW1lbnRJRD51dWlkOjNFOTk2RTZDLTM3QzctNEI3Qy05NDBBLUYwQjlENDNGNkVBRDwveG1wTU06RG9jdW1lbnRJRD48eG1wTU06SW5zdGFuY2VJRD51dWlkOjNFOTk2RTZDLTM3QzctNEI3Qy05NDBBLUYwQjlENDNGNkVBRDwveG1wTU06SW5zdGFuY2VJRD48L3JkZjpEZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCjwvcmRmOlJERj48L3g6eG1wbWV0YT48P3hwYWNrZXQgZW5kPSJ3Ij8+DQplbmRzdHJlYW0NCmVuZG9iag0KMjMgMCBvYmoNCjw8L0Rpc3BsYXlEb2NUaXRsZSB0cnVlPj4NCmVuZG9iag0KMjQgMCBvYmoNCjw8L1R5cGUvWFJlZi9TaXplIDI0L1dbIDEgNCAyXSAvUm9vdCAxIDAgUi9JbmZvIDEwIDAgUi9JRFs8NkM2RTk5M0VDNzM3N0M0Qjk0MEFGMEI5RDQzRjZFQUQ+PDZDNkU5OTNFQzczNzdDNEI5NDBBRjBCOUQ0M0Y2RUFEPl0gL0ZpbHRlci9GbGF0ZURlY29kZS9MZW5ndGggOTU+Pg0Kc3RyZWFtDQp4nGNgAIL//xmBpCADA4haBqHugSnG/2CK6SeYYl4MplimQ6gzYIqVEUy5CgOVAfUJMTBDKBYIxQqh2CAUE4SCqmQH6fsM4zECee59YMPcV4KpiFIwlbKHgQEA1JINsw0KZW5kc3RyZWFtDQplbmRvYmoNCnhyZWYNCjAgMjUNCjAwMDAwMDAwMTEgNjU1MzUgZg0KMDAwMDAwMDAxNyAwMDAwMCBuDQowMDAwMDAwMTY2IDAwMDAwIG4NCjAwMDAwMDAyMjIgMDAwMDAgbg0KMDAwMDAwMDUxMSAwMDAwMCBuDQowMDAwMDAwNzYxIDAwMDAwIG4NCjAwMDAwMDA5MzEgMDAwMDAgbg0KMDAwMDAwMTE3NSAwMDAwMCBuDQowMDAwMDAxMjI4IDAwMDAwIG4NCjAwMDAwMDEyODEgMDAwMDAgbg0KMDAwMDAxNzY4MyAwMDAwMCBuDQowMDAwMDAwMDEyIDY1NTM1IGYNCjAwMDAwMDAwMTMgNjU1MzUgZg0KMDAwMDAwMDAxNCA2NTUzNSBmDQowMDAwMDAwMDE1IDY1NTM1IGYNCjAwMDAwMDAwMTYgNjU1MzUgZg0KMDAwMDAwMDAxNyA2NTUzNSBmDQowMDAwMDAwMDE4IDY1NTM1IGYNCjAwMDAwMDAwMTkgNjU1MzUgZg0KMDAwMDAwMDAwMCA2NTUzNSBmDQowMDAwMDE4MzE4IDAwMDAwIG4NCjAwMDAwMTgzNDUgMDAwMDAgbg0KMDAwMDAyMjY0NSAwMDAwMCBuDQowMDAwMDI1Nzg4IDAwMDAwIG4NCjAwMDAwMjU4MzMgMDAwMDAgbg0KdHJhaWxlcg0KPDwvU2l6ZSAyNS9Sb290IDEgMCBSL0luZm8gMTAgMCBSL0lEWzw2QzZFOTkzRUM3Mzc3QzRCOTQwQUYwQjlENDNGNkVBRD48NkM2RTk5M0VDNzM3N0M0Qjk0MEFGMEI5RDQzRjZFQUQ+XSA+Pg0Kc3RhcnR4cmVmDQoyNjEyOA0KJSVFT0YNCnhyZWYNCjAgMA0KdHJhaWxlcg0KPDwvU2l6ZSAyNS9Sb290IDEgMCBSL0luZm8gMTAgMCBSL0lEWzw2QzZFOTkzRUM3Mzc3QzRCOTQwQUYwQjlENDNGNkVBRD48NkM2RTk5M0VDNzM3N0M0Qjk0MEFGMEI5RDQzRjZFQUQ+XSAvUHJldiAyNjEyOC9YUmVmU3RtIDI1ODMzPj4NCnN0YXJ0eHJlZg0KMjY3ODUNCiUlRU9G</file>
+                        <title>Referral Letter</title>
+                        <sequenceId>1</sequenceId>
+                     </fileAttachment>
+                  </extension>
+               </other>
+            </content>
+         </section>
+      </composition>
+   </putComposition>
+   <putComposition>
+      <controlHeader>
+         <srcInstitution>9403258</srcInstitution>
+         <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+         <srcApplication>MDX-GCMS</srcApplication>
+         <msgID>060e0e36-31ed-4e8f-a</msgID>
+         <msgSequenceID>3</msgSequenceID>
+         <msgDateTime>2026-10-13T14:22:25+06:30</msgDateTime>
+      </controlHeader>
+      <patient>
+         <identification>
+            <id>dicomtest</id>
+            <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+            <type>SP</type>
+         </identification>
+         <name>
+            <value>Dicom Test</value>
+            <title>Mr.</title>
+         </name>
+         <dateOfBirth>2016-12-27</dateOfBirth>
+         <gender>D</gender>
+         <nationality>SG</nationality>
+         <race>HN</race>
+         <language>EL</language>
+         <maritalStatus>2</maritalStatus>
+         <occupation>26511</occupation>
+      </patient>
+      <composition>
+         <identifier>b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</identifier>
+         <date>2026-10-13T14:22:27+06:30</date>
+         <createdDate>2026-10-13T14:22:27+06:30</createdDate>
+         <type>
+            <code>ReferralNote</code>
+            <codingSchemeName>Document_Type_(NEHR)</codingSchemeName>
+            <textDescription>Referral Note</textDescription>
+         </type>
+         <title>Referral to National Heart Centre Singapore - Electrophysiology</title>
+         <status>
+            <code>Final</code>
+            <codingSchemeName>Document_Status_(NEHR)</codingSchemeName>
+            <textDescription>Finalized</textDescription>
+         </status>
+         <creator>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+            </practitoner>
+            <system/>
+         </creator>
+         <author>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+            </practitoner>
+         </author>
+         <custodian>
+            <identifier>9403258</identifier>
+            <location>
+               <name>The Heart Clinic</name>
+            </location>
+         </custodian>
+         <encounter>
+            <identifier>1310202614061322213027244</identifier>
+            <period>
+               <start>2026-10-13T14:09:22+06:30</start>
+               <end>2026-10-13T14:52:25+06:30</end>
+            </period>
+         </encounter>
+         <section>
+            <code>
+               <code>4</code>
+               <codingSchemeName>Section_Code_(NEHR)</codingSchemeName>
+               <textDescription>Referral Letter</textDescription>
+            </code>
+            <content>
+               <referralRequest>
+                  <status>
+                     <code>1</code>
+                     <codingSchemeName>Referral_Status_(NEHR)</codingSchemeName>
+                     <textDescription>Authorized</textDescription>
+                  </status>
+                  <identifier>MDX-GCMS-REF-000000412</identifier>
+                  <type>
+                     <code>4</code>
+                     <codingSchemeName>Referral_Type_(NEHR)</codingSchemeName>
+                     <textDescription>Consultation</textDescription>
+                  </type>
+                  <specialty>
+                     <code>NEHR_SS_0002</code>
+                     <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+                     <textDescription>Cardiology</textDescription>
+                  </specialty>
+                  <requester>
+                     <practitoner>
+                        <identifier>03009J</identifier>
+                        <name>PHILIP KOH</name>
+                     </practitoner>
+                     <organisation>
+                        <identifier>9403258</identifier>
+                        <name>The Heart Clinic</name>
+                        <type>
+                           <code>Cardiology</code>
+                           <codingSchemeName>Document_Type_(NEHR)</codingSchemeName>
+                           <textDescription>Cardiology report</textDescription>
+                        </type>
+                     </organisation>
+                  </requester>
+                  <recipient>
+                     <organization>
+                        <identifier>0116</identifier>
+                        <name>National Heart Centre Singapore</name>
+                        <type>
+                           <code>2</code>
+                           <codingSchemeName>Organisation_Type_(NEHR)</codingSchemeName>
+                           <textDescription>Healthcare Provider</textDescription>
+                        </type>
+                     </organization>
+                  </recipient>
+                  <encounter>
+                     <identifier>1310202614061322213027244</identifier>
+                     <period>
+                        <start>2026-10-13T14:22:27+06:30</start>
+                        <end>2026-10-13T14:52:27+06:30</end>
+                     </period>
+                  </encounter>
+                  <dateSent>2026-10-13T14:22:27+06:30</dateSent>
+                  <reason/>
+                  <serviceRequested>
+                     <code>NEHR_SS_0002</code>
+                     <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+                     <textDescription>Cardiology - Electrophysiology</textDescription>
+                  </serviceRequested>
+               </referralRequest>
+            </content>
+         </section>
+         <section>
+            <title>Patient Information</title>
+            <code>
+               <textDescription>Patient Information</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Full Name</name>
+                        <text>Dicom Test</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>NRIC</name>
+                        <text>dicomtest</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Gender</name>
+                        <text>Male</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+               </other>
+            </content>
+         </section>
+         <section>
+            <title>Clinician Information</title>
+            <code>
+               <textDescription>Clinician Information</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Referring Clinician</name>
+                        <text>PHILIP KOH (MCR 03009J)</text>
+                     </notesItem>
+                  </extension>
+               </other>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>Notes Item</textDescription>
+                  </code>
+                  <extension>
+                     <notesItem>
+                        <name>Clinic</name>
+                        <text>The Heart Clinic</text>
+                     </notesItem>
+                  </extension>
+               </other>
+            </content>
+         </section>
+         <section>
+            <title>Referral Information</title>
+            <code>
+               <textDescription>Referral Information</textDescription>
+            </code>
+            <content/>
+         </section>
+         <section>
+            <title>Referral Letter Attachment</title>
+            <code>
+               <textDescription>Referral Letter Attachment</textDescription>
+            </code>
+            <content>
+               <other>
+                  <code>
+                     <code>1</code>
+                     <codingSchemeName>Other_Code_(NEHR)</codingSchemeName>
+                     <textDescription>File Attachment</textDescription>
+                  </code>
+                  <extension>
+                     <fileAttachment>
+                        <contentType>
+                           <code>1</code>
+                           <codingSchemeName>Attachment_Content_Type_(NEHR)</codingSchemeName>
+                        </contentType>
+                        <langauge>
+                           <code>EN</code>
+                           <codingSchemeName>Attachment_Language_(NEHR)</codingSchemeName>
+                        </langauge>
+                        <file/>
+                        <title>Referral Letter</title>
+                        <sequenceId>1</sequenceId>
+                     </fileAttachment>
+                  </extension>
+               </other>
+            </content>
+         </section>
+      </composition>
+   </putComposition>
+</PutComposition>

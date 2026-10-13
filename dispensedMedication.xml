@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PutDispensedMedications xmlns:NEHR="http://www.mohh.com/nehr">
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>b54df111-b970-4e6b-a</msgID>
+      <msgSequenceID>1</msgSequenceID>
+      <msgDateTime>2026-10-13T13:16:35+08:00</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>X2696201</id>
+        <MRNNumber>MDX-GCMS^13032416</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>UTOMO HIENDRO</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1955-01-06</dateOfBirth>
+      <gender>D</gender>
+      <nationality>ID</nationality>
+      <race />
+      <language>Bahasa</language>
+      <maritalStatus>2</maritalStatus>
+      <occupation />
+    </patient>
+    <medicationDispensed>
+      <recordIdentifier>dsp-rec-00423735-ad16-466b-bbbc-0d234c51ff801</recordIdentifier>
+      <eventId>1310202608201218013032416</eventId>
+      <dispenseID>MDX-GCMS-DSP-00423735-ad16-466b-bbbc-0d234c51ff801</dispenseID>
+      <sourceGroupingID>visit-1310202608201218013032416</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T13:16:36+08:00</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>aeb7c136-def0-4eb5-b</msgID>
+      <msgSequenceID>2</msgSequenceID>
+      <msgDateTime>2026-10-13T13:16:39+08:00</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S0074324J</id>
+        <MRNNumber>MDX-GCMS^13026755</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>HO KIAU SENG</value>
+        <title>Mr.</title>
+      </name>
+      <dateOfBirth>1945-06-12</dateOfBirth>
+      <gender>D</gender>
+      <nationality>SG</nationality>
+      <race />
+      <language />
+      <maritalStatus>2</maritalStatus>
+      <occupation />
+    </patient>
+    <medicationDispensed>
+      <recordIdentifier>dsp-rec-0cb4b56b-4548-48fa-a09d-44c62950646a1</recordIdentifier>
+      <eventId>1310202608195203413026755</eventId>
+      <dispenseID>MDX-GCMS-DSP-0cb4b56b-4548-48fa-a09d-44c62950646a1</dispenseID>
+      <sourceGroupingID>visit-1310202608195203413026755</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T13:16:39+08:00</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+  <putDispensedMedications>
+    <controlHeader>
+      <srcInstitution>9403258</srcInstitution>
+      <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+      <srcApplication>MDX-GCMS</srcApplication>
+      <msgID>3e69281d-dec7-4bfe-8</msgID>
+      <msgSequenceID>3</msgSequenceID>
+      <msgDateTime>2026-10-13T13:16:41+08:00</msgDateTime>
+    </controlHeader>
+    <patient>
+      <identification>
+        <id>S2632782B</id>
+        <MRNNumber>MDX-GCMS^13019443</MRNNumber>
+        <type>SP</type>
+      </identification>
+      <name>
+        <value>CHU YUT CHEW</value>
+        <title>Mrs.</title>
+      </name>
+      <dateOfBirth>1960-05-31</dateOfBirth>
+      <gender>C</gender>
+      <nationality>SG</nationality>
+      <race />
+      <language>EL</language>
+      <maritalStatus />
+    </patient>
+    <medicationDispensed>
+      <recordIdentifier>dsp-rec-0f5ea4e6-8703-440d-989f-b45b96151a0f1</recordIdentifier>
+      <eventId>1310202608204702513019443</eventId>
+      <dispenseID>MDX-GCMS-DSP-0f5ea4e6-8703-440d-989f-b45b96151a0f1</dispenseID>
+      <sourceGroupingID>visit-1310202608204702513019443</sourceGroupingID>
+      <dispenseDateTime>2026-10-13T13:16:42+08:00</dispenseDateTime>
+      <dispensingLocation>
+        <textDescription>Heart Clinic Dispensary — Main Counter</textDescription>
+      </dispensingLocation>
+      <dispenseType>
+        <code>Outpatient</code>
+        <codingSchemeName>Med_Order_Dispense_Type_(NEHR)</codingSchemeName>
+        <textDescription>Outpatient</textDescription>
+      </dispenseType>
+      <dispenseStatus>
+        <code>Completed</code>
+        <codingSchemeName>Med_Status_(NEHR)</codingSchemeName>
+        <textDescription>Completed</textDescription>
+      </dispenseStatus>
+      <dispensedBy />
+      <authorizedBy>
+        <id>03009J</id>
+        <name>PHILIP KOH</name>
+      </authorizedBy>
+      <orderedBy>
+        <name>PHILIP KOH</name>
+      </orderedBy>
+      <orderingLocation>
+        <textDescription>Consultation Room 1</textDescription>
+      </orderingLocation>
+    </medicationDispensed>
+  </putDispensedMedications>
+</PutDispensedMedications>

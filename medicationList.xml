@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PutPatientMedicationList xmlns:NEHR="http://www.mohh.com/nehr">
+   <putPatientMedicationList>
+      <controlHeader>
+         <srcInstitution>9403258</srcInstitution>
+         <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
+         <srcApplication>MDX-GCMS</srcApplication>
+         <msgID>c463a98b-256b-4339-8</msgID>
+         <msgSequenceID>1</msgSequenceID>
+         <msgDateTime>2026-10-13T14:21:09+06:30</msgDateTime>
+      </controlHeader>
+      <patient>
+         <identification>
+            <id>1234QWERTY123</id>
+            <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+            <type>SP</type>
+         </identification>
+         <name>
+            <value>ECHO TEST PAT</value>
+            <title>Mr.</title>
+         </name>
+         <dateOfBirth>1986-10-29</dateOfBirth>
+         <gender>D</gender>
+         <nationality>SG</nationality>
+         <race>HN</race>
+         <language>EL</language>
+         <maritalStatus>2</maritalStatus>
+         <occupation>26511</occupation>
+      </patient>
+      <list>
+         <encounter>
+            <identifier>1310202614053410913023442</identifier>
+         </encounter>
+         <date>2026-10-13T14:21:14+06:30</date>
+         <status>
+            <code>Final</code>
+            <codingSchemeName>Med_List_Status_(NEHR)</codingSchemeName>
+            <textDescription>Final</textDescription>
+         </status>
+         <code>
+            <code>PML</code>
+            <codingSchemeName>Med_List_Type_(NEHR)</codingSchemeName>
+            <textDescription>Patient Medication List</textDescription>
+         </code>
+         <reviewedUpon>
+            <code>6</code>
+            <codingSchemeName>Med_List_Reviewed_Upon_(NEHR)</codingSchemeName>
+            <textDescription>Outpatient (Post-Consultation)</textDescription>
+         </reviewedUpon>
+         <sourceOfMedicationList>
+            <code>2</code>
+            <codingSchemeName>Med_List_Source_(NEHR)</codingSchemeName>
+            <textDescription>Clinical Records (reconciled with patient self-report)</textDescription>
+         </sourceOfMedicationList>
+         <source>
+            <practitoner>
+               <identifier>03009J</identifier>
+               <name>PHILIP KOH</name>
+               <practitonerRole>
+                  <managingOrganization>
+                     <identifier>9403258</identifier>
+                  </managingOrganization>
+               </practitonerRole>
+            </practitoner>
+         </source>
+         <medicalAlert/>
+         <drugAllergy/>
+         <notesforHCP>
+            <medicationManagementIssues>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </medicationManagementIssues>
+         </notesforHCP>
+      </list>
+   </putPatientMedicationList>
+</PutPatientMedicationList>
