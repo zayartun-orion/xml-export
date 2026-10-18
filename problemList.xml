@@ -5,33 +5,33 @@
          <srcInstitution>9403258</srcInstitution>
          <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
          <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>c463a98b-256b-4339-8</msgID>
+         <msgID>0f6c1d41-022c-4ba4-b930-a06da2ea8f3e</msgID>
          <msgSequenceID>1</msgSequenceID>
-         <msgDateTime>2026-10-13T14:21:09+06:30</msgDateTime>
+         <msgDateTime>2026-10-18T23:02:44+08:00</msgDateTime>
       </controlHeader>
       <patient>
          <identification>
-            <id>1234QWERTY123</id>
-            <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+            <id>NRIC046</id>
+            <MRNNumber>MDX-GCMS^15031046</MRNNumber>
             <type>SP</type>
          </identification>
          <name>
-            <value>ECHO TEST PAT</value>
-            <title>Mr.</title>
+            <value>Jason Test NewChua</value>
+            <title>Mr</title>
          </name>
-         <dateOfBirth>1986-10-29</dateOfBirth>
+         <dateOfBirth>1987-11-06</dateOfBirth>
          <gender>D</gender>
          <nationality>SG</nationality>
          <race>HN</race>
          <language>EL</language>
-         <maritalStatus>2</maritalStatus>
+         <maritalStatus>7</maritalStatus>
          <occupation>26511</occupation>
       </patient>
       <problemList>
-         <recordIdentifier>031f419f-6b14-46fe-824a-855734b4f95c1</recordIdentifier>
-         <eventId>1310202614053410913023442</eventId>
+         <recordIdentifier>00e75ca6-007a-4f9d-a2a7-f074759259ca1</recordIdentifier>
+         <eventId>1810202620161879215031046</eventId>
          <userInstitution>9403258</userInstitution>
-         <ListType>Visit Diagnosis List</ListType>
+         <listType>Visit Diagnosis List</listType>
          <listStatus>
             <code>Final</code>
             <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
@@ -41,9 +41,107 @@
             <id>03009J</id>
             <name>PHILIP KOH</name>
          </lastUpdatedBy>
-         <lastUpdatedDateTime>2026-10-13T14:05:34+06:30</lastUpdatedDateTime>
+         <lastUpdatedDateTime>2026-10-18T20:16:18+08:00</lastUpdatedDateTime>
          <problem>
-            <id>RK13023442-003</id>
+            <id>RK15031046-001</id>
+            <sequenceNo>1</sequenceNo>
+            <category>
+               <code>2</code>
+               <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
+               <textDescription>Diagnosis</textDescription>
+            </category>
+            <problemName>
+               <code>364334009</code>
+               <codingSchemeName>SNOMED-CT</codingSchemeName>
+               <codingSchemeVersion>Jul2024</codingSchemeVersion>
+               <textDescription>Abnormal findings diagnostic imaging heart+coronary circulat</textDescription>
+            </problemName>
+            <conditionType>
+               <code>Chronic</code>
+               <codingSchemeName>Condition_Type_(NEHR)</codingSchemeName>
+               <textDescription>Chronic</textDescription>
+            </conditionType>
+            <status>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </status>
+            <state>
+               <code>Final</code>
+               <codingSchemeName>Diagnosis_State_(NEHR)</codingSchemeName>
+               <textDescription>Final</textDescription>
+            </state>
+            <serviceSpecialty>
+               <code>NEHR_SS_0002</code>
+               <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+               <textDescription>Cardiology</textDescription>
+            </serviceSpecialty>
+            <institution>9403258</institution>
+            <sourceOfOrigin>MDX-GCMS</sourceOfOrigin>
+            <createdBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </createdBy>
+            <createdDateTime>2026-10-18T21:32:45+08:00</createdDateTime>
+            <updatedBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </updatedBy>
+            <updatedDateTime>2026-10-18T21:20:32+08:00</updatedDateTime>
+         </problem>
+         <problem>
+            <id>RK15031046-002</id>
+            <sequenceNo>2</sequenceNo>
+            <category>
+               <code>2</code>
+               <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
+               <textDescription>Diagnosis</textDescription>
+            </category>
+            <problemName>
+               <code>398940006</code>
+               <codingSchemeName>SNOMED-CT</codingSchemeName>
+               <codingSchemeVersion>Jul2024</codingSchemeVersion>
+               <textDescription>Abnormal findings on diagnostic imaging of skull and head</textDescription>
+            </problemName>
+            <conditionType>
+               <code>Chronic</code>
+               <codingSchemeName>Condition_Type_(NEHR)</codingSchemeName>
+               <textDescription>Chronic</textDescription>
+            </conditionType>
+            <status>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </status>
+            <state>
+               <code>Final</code>
+               <codingSchemeName>Diagnosis_State_(NEHR)</codingSchemeName>
+               <textDescription>Final</textDescription>
+            </state>
+            <serviceSpecialty>
+               <code>NEHR_SS_0002</code>
+               <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+               <textDescription>Cardiology</textDescription>
+            </serviceSpecialty>
+            <institution>9403258</institution>
+            <sourceOfOrigin>MDX-GCMS</sourceOfOrigin>
+            <createdBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </createdBy>
+            <createdDateTime>2026-10-18T21:32:52+08:00</createdDateTime>
+            <updatedBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </updatedBy>
+            <updatedDateTime>2026-10-18T21:20:32+08:00</updatedDateTime>
+         </problem>
+         <problem>
+            <id>RK15031046-003</id>
             <sequenceNo>3</sequenceNo>
             <category>
                <code>2</code>
@@ -51,10 +149,10 @@
                <textDescription>Diagnosis</textDescription>
             </category>
             <problemName>
-               <code>93264003</code>
+               <code>63956009</code>
                <codingSchemeName>SNOMED-CT</codingSchemeName>
                <codingSchemeVersion>Jul2024</codingSchemeVersion>
-               <textDescription>Abbreviated Mental Test</textDescription>
+               <textDescription>Adverse cutaneous reaction to diagnostic procedure</textDescription>
             </problemName>
             <conditionType>
                <code>Chronic</code>
@@ -83,13 +181,13 @@
                <name>PHILIP KOH</name>
                <institution>9403258</institution>
             </createdBy>
-            <createdDateTime>2026-10-13T14:21:09+06:30</createdDateTime>
+            <createdDateTime>2026-10-18T21:32:58+08:00</createdDateTime>
             <updatedBy>
                <id>03009J</id>
                <name>PHILIP KOH</name>
                <institution>9403258</institution>
             </updatedBy>
-            <updatedDateTime>2025-09-10T11:10:49+06:30</updatedDateTime>
+            <updatedDateTime>2026-10-18T21:20:32+08:00</updatedDateTime>
          </problem>
       </problemList>
    </putPatientProblemList>
@@ -98,33 +196,33 @@
          <srcInstitution>9403258</srcInstitution>
          <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
          <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>1a177b8f-f677-4209-9</msgID>
+         <msgID>111fc90c-43c3-4770-83f4-f02d8caec561</msgID>
          <msgSequenceID>2</msgSequenceID>
-         <msgDateTime>2026-10-13T14:22:04+06:30</msgDateTime>
+         <msgDateTime>2026-10-18T23:03:06+08:00</msgDateTime>
       </controlHeader>
       <patient>
          <identification>
-            <id>S8907863</id>
-            <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+            <id>NRIC047</id>
+            <MRNNumber>MDX-GCMS^15031047</MRNNumber>
             <type>SP</type>
          </identification>
          <name>
-            <value>TestP2025</value>
-            <title>Mr.</title>
+            <value>Rebecca Test NewOng</value>
+            <title>Mr</title>
          </name>
-         <dateOfBirth>1987-01-12</dateOfBirth>
+         <dateOfBirth>1989-12-24</dateOfBirth>
          <gender>D</gender>
          <nationality>SG</nationality>
          <race>HN</race>
          <language>EL</language>
-         <maritalStatus>2</maritalStatus>
+         <maritalStatus>7</maritalStatus>
          <occupation>26511</occupation>
       </patient>
       <problemList>
-         <recordIdentifier>8685086f-7826-4384-a7e6-0654449b54541</recordIdentifier>
-         <eventId>1310202614064021513033148</eventId>
+         <recordIdentifier>141c7739-f3a1-4d89-8268-263f8433e16f1</recordIdentifier>
+         <eventId>1810202620152680615031047</eventId>
          <userInstitution>9403258</userInstitution>
-         <ListType>Visit Diagnosis List</ListType>
+         <listType>Visit Diagnosis List</listType>
          <listStatus>
             <code>Final</code>
             <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
@@ -134,20 +232,20 @@
             <id>03009J</id>
             <name>PHILIP KOH</name>
          </lastUpdatedBy>
-         <lastUpdatedDateTime>2026-10-13T14:06:40+06:30</lastUpdatedDateTime>
+         <lastUpdatedDateTime>2026-10-18T20:15:27+08:00</lastUpdatedDateTime>
          <problem>
-            <id>RK13033148-003</id>
-            <sequenceNo>6</sequenceNo>
+            <id>RK15031047-001</id>
+            <sequenceNo>1</sequenceNo>
             <category>
                <code>2</code>
                <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
                <textDescription>Diagnosis</textDescription>
             </category>
             <problemName>
-               <code>406924000</code>
+               <code>129137006</code>
                <codingSchemeName>SNOMED-CT</codingSchemeName>
                <codingSchemeVersion>Jul2024</codingSchemeVersion>
-               <textDescription>Administration of prophylactic antibiotic for upper gastrointestinal haemorrhage due to cirrhosis of liver</textDescription>
+               <textDescription>Cardamon diagnostic allergen extract</textDescription>
             </problemName>
             <conditionType>
                <code>Chronic</code>
@@ -176,13 +274,111 @@
                <name>PHILIP KOH</name>
                <institution>9403258</institution>
             </createdBy>
-            <createdDateTime>2026-10-13T14:22:04+06:30</createdDateTime>
+            <createdDateTime>2026-10-18T21:33:08+08:00</createdDateTime>
             <updatedBy>
                <id>03009J</id>
                <name>PHILIP KOH</name>
                <institution>9403258</institution>
             </updatedBy>
-            <updatedDateTime>2026-10-13T14:14:12+06:30</updatedDateTime>
+            <updatedDateTime>2026-10-18T21:22:12+08:00</updatedDateTime>
+         </problem>
+         <problem>
+            <id>RK15031047-002</id>
+            <sequenceNo>2</sequenceNo>
+            <category>
+               <code>2</code>
+               <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
+               <textDescription>Diagnosis</textDescription>
+            </category>
+            <problemName>
+               <code>402304007</code>
+               <codingSchemeName>SNOMED-CT</codingSchemeName>
+               <codingSchemeVersion>Jul2024</codingSchemeVersion>
+               <textDescription>Budgerigar serum proteins diagnostic allergen extract</textDescription>
+            </problemName>
+            <conditionType>
+               <code>Chronic</code>
+               <codingSchemeName>Condition_Type_(NEHR)</codingSchemeName>
+               <textDescription>Chronic</textDescription>
+            </conditionType>
+            <status>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </status>
+            <state>
+               <code>Final</code>
+               <codingSchemeName>Diagnosis_State_(NEHR)</codingSchemeName>
+               <textDescription>Final</textDescription>
+            </state>
+            <serviceSpecialty>
+               <code>NEHR_SS_0002</code>
+               <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+               <textDescription>Cardiology</textDescription>
+            </serviceSpecialty>
+            <institution>9403258</institution>
+            <sourceOfOrigin>MDX-GCMS</sourceOfOrigin>
+            <createdBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </createdBy>
+            <createdDateTime>2026-10-18T21:33:08+08:00</createdDateTime>
+            <updatedBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </updatedBy>
+            <updatedDateTime>2026-10-18T21:22:12+08:00</updatedDateTime>
+         </problem>
+         <problem>
+            <id>RK15031047-003</id>
+            <sequenceNo>3</sequenceNo>
+            <category>
+               <code>2</code>
+               <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
+               <textDescription>Diagnosis</textDescription>
+            </category>
+            <problemName>
+               <code>248586000</code>
+               <codingSchemeName>SNOMED-CT</codingSchemeName>
+               <codingSchemeVersion>Jul2024</codingSchemeVersion>
+               <textDescription>Cancer diagnosis discussed with partner in relationship</textDescription>
+            </problemName>
+            <conditionType>
+               <code>Chronic</code>
+               <codingSchemeName>Condition_Type_(NEHR)</codingSchemeName>
+               <textDescription>Chronic</textDescription>
+            </conditionType>
+            <status>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </status>
+            <state>
+               <code>Final</code>
+               <codingSchemeName>Diagnosis_State_(NEHR)</codingSchemeName>
+               <textDescription>Final</textDescription>
+            </state>
+            <serviceSpecialty>
+               <code>NEHR_SS_0002</code>
+               <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+               <textDescription>Cardiology</textDescription>
+            </serviceSpecialty>
+            <institution>9403258</institution>
+            <sourceOfOrigin>MDX-GCMS</sourceOfOrigin>
+            <createdBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </createdBy>
+            <createdDateTime>2026-10-18T21:33:08+08:00</createdDateTime>
+            <updatedBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </updatedBy>
+            <updatedDateTime>2026-10-18T21:22:12+08:00</updatedDateTime>
          </problem>
       </problemList>
    </putPatientProblemList>
@@ -191,33 +387,33 @@
          <srcInstitution>9403258</srcInstitution>
          <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
          <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>060e0e36-31ed-4e8f-a</msgID>
+         <msgID>4e36f204-ea76-4b6b-a626-567628be3625</msgID>
          <msgSequenceID>3</msgSequenceID>
-         <msgDateTime>2026-10-13T14:22:25+06:30</msgDateTime>
+         <msgDateTime>2026-10-18T23:03:16+08:00</msgDateTime>
       </controlHeader>
       <patient>
          <identification>
-            <id>dicomtest</id>
-            <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+            <id>NRIC006</id>
+            <MRNNumber>MDX-GCMS^15031006</MRNNumber>
             <type>SP</type>
          </identification>
          <name>
-            <value>Dicom Test</value>
-            <title>Mr.</title>
+            <value>Daniel Test NewLim</value>
+            <title>Mr</title>
          </name>
-         <dateOfBirth>2016-12-27</dateOfBirth>
+         <dateOfBirth>1993-11-08</dateOfBirth>
          <gender>D</gender>
          <nationality>SG</nationality>
          <race>HN</race>
          <language>EL</language>
-         <maritalStatus>2</maritalStatus>
+         <maritalStatus>7</maritalStatus>
          <occupation>26511</occupation>
       </patient>
       <problemList>
-         <recordIdentifier>b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</recordIdentifier>
-         <eventId>1310202614061322213027244</eventId>
+         <recordIdentifier>a1bdda2a-101f-480e-be19-bb5117be70df1</recordIdentifier>
+         <eventId>1810202620155282615031006</eventId>
          <userInstitution>9403258</userInstitution>
-         <ListType>Visit Diagnosis List</ListType>
+         <listType>Visit Diagnosis List</listType>
          <listStatus>
             <code>Final</code>
             <codingSchemeName>Problem_List_Status_(NEHR)</codingSchemeName>
@@ -227,20 +423,20 @@
             <id>03009J</id>
             <name>PHILIP KOH</name>
          </lastUpdatedBy>
-         <lastUpdatedDateTime>2026-10-13T14:06:13+06:30</lastUpdatedDateTime>
+         <lastUpdatedDateTime>2026-10-18T20:15:52+08:00</lastUpdatedDateTime>
          <problem>
-            <id>RK13027244-004</id>
-            <sequenceNo>10</sequenceNo>
+            <id>RK15031006-001</id>
+            <sequenceNo>1</sequenceNo>
             <category>
                <code>2</code>
                <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
                <textDescription>Diagnosis</textDescription>
             </category>
             <problemName>
-               <code>5686001</code>
+               <code>241081005</code>
                <codingSchemeName>SNOMED-CT</codingSchemeName>
                <codingSchemeVersion>Jul2024</codingSchemeVersion>
-               <textDescription>Cervical Spondylosis</textDescription>
+               <textDescription>Adult diagnostic audiology service</textDescription>
             </problemName>
             <conditionType>
                <code>Chronic</code>
@@ -269,13 +465,111 @@
                <name>PHILIP KOH</name>
                <institution>9403258</institution>
             </createdBy>
-            <createdDateTime>2026-10-13T14:22:25+06:30</createdDateTime>
+            <createdDateTime>2026-10-18T21:33:17+08:00</createdDateTime>
             <updatedBy>
                <id>03009J</id>
                <name>PHILIP KOH</name>
                <institution>9403258</institution>
             </updatedBy>
-            <updatedDateTime>2026-03-25T08:53:48+06:30</updatedDateTime>
+            <updatedDateTime>2026-10-18T21:21:30+08:00</updatedDateTime>
+         </problem>
+         <problem>
+            <id>RK15031006-002</id>
+            <sequenceNo>2</sequenceNo>
+            <category>
+               <code>2</code>
+               <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
+               <textDescription>Diagnosis</textDescription>
+            </category>
+            <problemName>
+               <code>433469005</code>
+               <codingSchemeName>SNOMED-CT</codingSchemeName>
+               <codingSchemeVersion>Jul2024</codingSchemeVersion>
+               <textDescription>Black pepper diagnostic allergen extract</textDescription>
+            </problemName>
+            <conditionType>
+               <code>Chronic</code>
+               <codingSchemeName>Condition_Type_(NEHR)</codingSchemeName>
+               <textDescription>Chronic</textDescription>
+            </conditionType>
+            <status>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </status>
+            <state>
+               <code>Final</code>
+               <codingSchemeName>Diagnosis_State_(NEHR)</codingSchemeName>
+               <textDescription>Final</textDescription>
+            </state>
+            <serviceSpecialty>
+               <code>NEHR_SS_0002</code>
+               <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+               <textDescription>Cardiology</textDescription>
+            </serviceSpecialty>
+            <institution>9403258</institution>
+            <sourceOfOrigin>MDX-GCMS</sourceOfOrigin>
+            <createdBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </createdBy>
+            <createdDateTime>2026-10-18T21:33:17+08:00</createdDateTime>
+            <updatedBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </updatedBy>
+            <updatedDateTime>2026-10-18T21:21:30+08:00</updatedDateTime>
+         </problem>
+         <problem>
+            <id>RK15031006-003</id>
+            <sequenceNo>3</sequenceNo>
+            <category>
+               <code>2</code>
+               <codingSchemeName>Problem_Category_(NEHR)</codingSchemeName>
+               <textDescription>Diagnosis</textDescription>
+            </category>
+            <problemName>
+               <code>428189005</code>
+               <codingSchemeName>SNOMED-CT</codingSchemeName>
+               <codingSchemeVersion>Jul2024</codingSchemeVersion>
+               <textDescription>Active warming of subject using haemodialysis circuit</textDescription>
+            </problemName>
+            <conditionType>
+               <code>Chronic</code>
+               <codingSchemeName>Condition_Type_(NEHR)</codingSchemeName>
+               <textDescription>Chronic</textDescription>
+            </conditionType>
+            <status>
+               <code>Active</code>
+               <codingSchemeName>Diagnosis_Status_(NEHR)</codingSchemeName>
+               <textDescription>Active</textDescription>
+            </status>
+            <state>
+               <code>Final</code>
+               <codingSchemeName>Diagnosis_State_(NEHR)</codingSchemeName>
+               <textDescription>Final</textDescription>
+            </state>
+            <serviceSpecialty>
+               <code>NEHR_SS_0002</code>
+               <codingSchemeName>Service_Specialty_(NEHR)</codingSchemeName>
+               <textDescription>Cardiology</textDescription>
+            </serviceSpecialty>
+            <institution>9403258</institution>
+            <sourceOfOrigin>MDX-GCMS</sourceOfOrigin>
+            <createdBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </createdBy>
+            <createdDateTime>2026-10-18T21:33:17+08:00</createdDateTime>
+            <updatedBy>
+               <id>03009J</id>
+               <name>PHILIP KOH</name>
+               <institution>9403258</institution>
+            </updatedBy>
+            <updatedDateTime>2026-10-18T21:21:30+08:00</updatedDateTime>
          </problem>
       </problemList>
    </putPatientProblemList>

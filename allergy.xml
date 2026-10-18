@@ -5,30 +5,30 @@
          <srcInstitution>9403258</srcInstitution>
          <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
          <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>abaef2d8-cc0b-4370-a</msgID>
+         <msgID>1475b476-4caa-49c7-9ed5-d075d55fcfeb</msgID>
          <msgSequenceID>1</msgSequenceID>
-         <msgDateTime>2026-10-13T14:49:06+06:30</msgDateTime>
+         <msgDateTime>2026-10-18T21:57:50+08:00</msgDateTime>
       </controlHeader>
       <patient>
          <identification>
-            <id>1234QWERTY123</id>
-            <MRNNumber>MDX-GCMS^13023442</MRNNumber>
+            <id>NRIC046</id>
+            <MRNNumber>MDX-GCMS^15031046</MRNNumber>
             <type>SP</type>
          </identification>
          <name>
-            <value>ECHO TEST PAT</value>
-            <title>Mr.</title>
+            <value>Jason Test NewChua</value>
+            <title>Mr</title>
          </name>
-         <dateOfBirth>1986-10-29</dateOfBirth>
+         <dateOfBirth>1987-11-06</dateOfBirth>
          <gender>D</gender>
          <nationality>SG</nationality>
          <race>HN</race>
          <language>EL</language>
-         <maritalStatus>2</maritalStatus>
+         <maritalStatus>7</maritalStatus>
          <occupation>26511</occupation>
       </patient>
       <allergyIntolerance>
-         <identifier>031f419f-6b14-46fe-824a-855734b4f95c1</identifier>
+         <identifier>00009314-9341-4448-a5d0-e8fb9ce37b381</identifier>
          <reportingFlag>
             <coding>
                <system>CMIS_REPORTING_FLAG_(NEHR)</system>
@@ -37,17 +37,12 @@
             </coding>
             <text>Add a new report</text>
          </reportingFlag>
-         <creater>
-            <practitoner>
+         <creator>
+            <practitioner>
                <identifier>03009J</identifier>
                <name>PHILIP KOH</name>
-               <profession>
-                  <code>
-                     <coding/>
-                  </code>
-               </profession>
-            </practitoner>
-         </creater>
+            </practitioner>
+         </creator>
          <verificationStatus>
             <coding>
                <system>CMIS_DRUG_ALLERGY_INDICATOR_(NEHR)</system>
@@ -56,17 +51,17 @@
             </coding>
          </verificationStatus>
          <encounter>
-            <identifier>1310202614053410913023442</identifier>
+            <identifier>1810202620161879215031046</identifier>
             <serviceProvider>
-               <identifier>03009J</identifier>
-               <name>PHILIP KOH</name>
+               <identifier>9403258</identifier>
+               <name>The Heart Clinic</name>
             </serviceProvider>
          </encounter>
-         <onSet>
+         <onset>
             <onsetDateTime>20240202</onsetDateTime>
-         </onSet>
+         </onset>
          <recorder>
-            <practitoner>
+            <practitioner>
                <identifier>03009J</identifier>
                <name>PHILIP KOH</name>
                <profession>
@@ -78,41 +73,38 @@
                      </coding>
                   </code>
                </profession>
-            </practitoner>
+            </practitioner>
          </recorder>
-         <reportedDate>2026-10-13T14:49:17+06:30</reportedDate>
-         <allergyInformationSource>
+         <reportedDate>2026-10-18T20:27:55+08:00</reportedDate>
+         <informationSource>
             <coding>
                <system>CMIS_INFORMATION_SOURCE_(NEHR)</system>
-               <code>01</code>
+               <code>02</code>
                <display>Medical records</display>
             </coding>
-         </allergyInformationSource>
+         </informationSource>
          <reaction>
-            <aDRAlertIndicatorCode>
+            <ADRAlertIndicatorCode>
                <coding>
-                  <system>CMIS_ADR_ALERT_INDICATOR_(NEHR</system>
+                  <system>CMIS_ADR_ALERT_INDICATOR_(NEHR)</system>
                   <code>1</code>
                   <display>Yes, avoid the same drug and drugs in the same class</display>
                </coding>
-            </aDRAlertIndicatorCode>
-            <manifestation>
-               <coding/>
-            </manifestation>
-            <allergySeverity>
+            </ADRAlertIndicatorCode>
+            <severity>
                <coding>
                   <system>CMIS_REACTION_SEVERITY_(NEHR)</system>
                   <code>N</code>
                   <display>No</display>
                </coding>
-            </allergySeverity>
-            <aDROutcome>
+            </severity>
+            <ADROutcome>
                <coding>
                   <system>CMIS_ADR_OUTCOME_(NEHR)</system>
                   <code>1</code>
                   <display>Recovered</display>
                </coding>
-            </aDROutcome>
+            </ADROutcome>
          </reaction>
          <drugInformation>
             <substance>
@@ -135,9 +127,6 @@
                   <display>Definite</display>
                </coding>
             </drugProbability>
-            <productName>
-               <coding/>
-            </productName>
             <drugType>S</drugType>
          </drugInformation>
       </allergyIntolerance>
@@ -147,30 +136,30 @@
          <srcInstitution>9403258</srcInstitution>
          <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
          <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>92af708f-f370-4b02-8</msgID>
+         <msgID>b2640c57-e2be-4433-ba28-ca6da5623c6c</msgID>
          <msgSequenceID>2</msgSequenceID>
-         <msgDateTime>2026-10-13T14:49:51+06:30</msgDateTime>
+         <msgDateTime>2026-10-18T21:58:30+08:00</msgDateTime>
       </controlHeader>
       <patient>
          <identification>
-            <id>S8907863</id>
-            <MRNNumber>MDX-GCMS^13033148</MRNNumber>
+            <id>NRIC047</id>
+            <MRNNumber>MDX-GCMS^15031047</MRNNumber>
             <type>SP</type>
          </identification>
          <name>
-            <value>TestP2025</value>
-            <title>Mr.</title>
+            <value>Rebecca Test NewOng</value>
+            <title>Mr</title>
          </name>
-         <dateOfBirth>1987-01-12</dateOfBirth>
+         <dateOfBirth>1989-12-24</dateOfBirth>
          <gender>D</gender>
          <nationality>SG</nationality>
          <race>HN</race>
          <language>EL</language>
-         <maritalStatus>2</maritalStatus>
+         <maritalStatus>7</maritalStatus>
          <occupation>26511</occupation>
       </patient>
       <allergyIntolerance>
-         <identifier>8685086f-7826-4384-a7e6-0654449b54541</identifier>
+         <identifier>00009314-9341-4448-a5d0-e8fb9ce37b381</identifier>
          <reportingFlag>
             <coding>
                <system>CMIS_REPORTING_FLAG_(NEHR)</system>
@@ -179,17 +168,12 @@
             </coding>
             <text>Add a new report</text>
          </reportingFlag>
-         <creater>
-            <practitoner>
+         <creator>
+            <practitioner>
                <identifier>03009J</identifier>
                <name>PHILIP KOH</name>
-               <profession>
-                  <code>
-                     <coding/>
-                  </code>
-               </profession>
-            </practitoner>
-         </creater>
+            </practitioner>
+         </creator>
          <verificationStatus>
             <coding>
                <system>CMIS_DRUG_ALLERGY_INDICATOR_(NEHR)</system>
@@ -198,17 +182,17 @@
             </coding>
          </verificationStatus>
          <encounter>
-            <identifier>1310202614064021513033148</identifier>
+            <identifier>1810202620152680615031047</identifier>
             <serviceProvider>
-               <identifier>03009J</identifier>
-               <name>PHILIP KOH</name>
+               <identifier>9403258</identifier>
+               <name>The Heart Clinic</name>
             </serviceProvider>
          </encounter>
-         <onSet>
+         <onset>
             <onsetDateTime>20240202</onsetDateTime>
-         </onSet>
+         </onset>
          <recorder>
-            <practitoner>
+            <practitioner>
                <identifier>03009J</identifier>
                <name>PHILIP KOH</name>
                <profession>
@@ -220,41 +204,38 @@
                      </coding>
                   </code>
                </profession>
-            </practitoner>
+            </practitioner>
          </recorder>
-         <reportedDate>2026-10-13T14:50:08+06:30</reportedDate>
-         <allergyInformationSource>
+         <reportedDate>2026-10-18T20:28:30+08:00</reportedDate>
+         <informationSource>
             <coding>
                <system>CMIS_INFORMATION_SOURCE_(NEHR)</system>
-               <code>01</code>
+               <code>02</code>
                <display>Medical records</display>
             </coding>
-         </allergyInformationSource>
+         </informationSource>
          <reaction>
-            <aDRAlertIndicatorCode>
+            <ADRAlertIndicatorCode>
                <coding>
-                  <system>CMIS_ADR_ALERT_INDICATOR_(NEHR</system>
+                  <system>CMIS_ADR_ALERT_INDICATOR_(NEHR)</system>
                   <code>1</code>
                   <display>Yes, avoid the same drug and drugs in the same class</display>
                </coding>
-            </aDRAlertIndicatorCode>
-            <manifestation>
-               <coding/>
-            </manifestation>
-            <allergySeverity>
+            </ADRAlertIndicatorCode>
+            <severity>
                <coding>
                   <system>CMIS_REACTION_SEVERITY_(NEHR)</system>
                   <code>N</code>
                   <display>No</display>
                </coding>
-            </allergySeverity>
-            <aDROutcome>
+            </severity>
+            <ADROutcome>
                <coding>
                   <system>CMIS_ADR_OUTCOME_(NEHR)</system>
                   <code>1</code>
                   <display>Recovered</display>
                </coding>
-            </aDROutcome>
+            </ADROutcome>
          </reaction>
          <drugInformation>
             <substance>
@@ -277,9 +258,6 @@
                   <display>Definite</display>
                </coding>
             </drugProbability>
-            <productName>
-               <coding/>
-            </productName>
             <drugType>S</drugType>
          </drugInformation>
       </allergyIntolerance>
@@ -289,30 +267,30 @@
          <srcInstitution>9403258</srcInstitution>
          <licenseeNumber>L/9403258/MDS/007/242</licenseeNumber>
          <srcApplication>MDX-GCMS</srcApplication>
-         <msgID>a7e6de1c-d441-4e7a-9</msgID>
+         <msgID>38c45091-1938-47f6-ae41-e8031d7c39cd</msgID>
          <msgSequenceID>3</msgSequenceID>
-         <msgDateTime>2026-10-13T14:50:39+06:30</msgDateTime>
+         <msgDateTime>2026-10-18T21:59:23+08:00</msgDateTime>
       </controlHeader>
       <patient>
          <identification>
-            <id>dicomtest</id>
-            <MRNNumber>MDX-GCMS^13027244</MRNNumber>
+            <id>NRIC006</id>
+            <MRNNumber>MDX-GCMS^15031006</MRNNumber>
             <type>SP</type>
          </identification>
          <name>
-            <value>Dicom Test</value>
-            <title>Mr.</title>
+            <value>Daniel Test NewLim</value>
+            <title>Mr</title>
          </name>
-         <dateOfBirth>2016-12-27</dateOfBirth>
+         <dateOfBirth>1993-11-08</dateOfBirth>
          <gender>D</gender>
          <nationality>SG</nationality>
          <race>HN</race>
          <language>EL</language>
-         <maritalStatus>2</maritalStatus>
+         <maritalStatus>7</maritalStatus>
          <occupation>26511</occupation>
       </patient>
       <allergyIntolerance>
-         <identifier>b0d2ebbb-f9ca-488b-af0b-2f6e3e3829bc1</identifier>
+         <identifier>00009314-9341-4448-a5d0-e8fb9ce37b381</identifier>
          <reportingFlag>
             <coding>
                <system>CMIS_REPORTING_FLAG_(NEHR)</system>
@@ -321,17 +299,12 @@
             </coding>
             <text>Add a new report</text>
          </reportingFlag>
-         <creater>
-            <practitoner>
+         <creator>
+            <practitioner>
                <identifier>03009J</identifier>
                <name>PHILIP KOH</name>
-               <profession>
-                  <code>
-                     <coding/>
-                  </code>
-               </profession>
-            </practitoner>
-         </creater>
+            </practitioner>
+         </creator>
          <verificationStatus>
             <coding>
                <system>CMIS_DRUG_ALLERGY_INDICATOR_(NEHR)</system>
@@ -340,17 +313,17 @@
             </coding>
          </verificationStatus>
          <encounter>
-            <identifier>1310202614061322213027244</identifier>
+            <identifier>1810202620155282615031006</identifier>
             <serviceProvider>
-               <identifier>03009J</identifier>
-               <name>PHILIP KOH</name>
+               <identifier>9403258</identifier>
+               <name>The Heart Clinic</name>
             </serviceProvider>
          </encounter>
-         <onSet>
+         <onset>
             <onsetDateTime>20240202</onsetDateTime>
-         </onSet>
+         </onset>
          <recorder>
-            <practitoner>
+            <practitioner>
                <identifier>03009J</identifier>
                <name>PHILIP KOH</name>
                <profession>
@@ -362,41 +335,38 @@
                      </coding>
                   </code>
                </profession>
-            </practitoner>
+            </practitioner>
          </recorder>
-         <reportedDate>2026-10-13T14:50:45+06:30</reportedDate>
-         <allergyInformationSource>
+         <reportedDate>2026-10-18T20:29:23+08:00</reportedDate>
+         <informationSource>
             <coding>
                <system>CMIS_INFORMATION_SOURCE_(NEHR)</system>
-               <code>01</code>
+               <code>02</code>
                <display>Medical records</display>
             </coding>
-         </allergyInformationSource>
+         </informationSource>
          <reaction>
-            <aDRAlertIndicatorCode>
+            <ADRAlertIndicatorCode>
                <coding>
-                  <system>CMIS_ADR_ALERT_INDICATOR_(NEHR</system>
+                  <system>CMIS_ADR_ALERT_INDICATOR_(NEHR)</system>
                   <code>1</code>
                   <display>Yes, avoid the same drug and drugs in the same class</display>
                </coding>
-            </aDRAlertIndicatorCode>
-            <manifestation>
-               <coding/>
-            </manifestation>
-            <allergySeverity>
+            </ADRAlertIndicatorCode>
+            <severity>
                <coding>
                   <system>CMIS_REACTION_SEVERITY_(NEHR)</system>
                   <code>N</code>
                   <display>No</display>
                </coding>
-            </allergySeverity>
-            <aDROutcome>
+            </severity>
+            <ADROutcome>
                <coding>
                   <system>CMIS_ADR_OUTCOME_(NEHR)</system>
                   <code>1</code>
                   <display>Recovered</display>
                </coding>
-            </aDROutcome>
+            </ADROutcome>
          </reaction>
          <drugInformation>
             <substance>
@@ -419,9 +389,6 @@
                   <display>Definite</display>
                </coding>
             </drugProbability>
-            <productName>
-               <coding/>
-            </productName>
             <drugType>S</drugType>
          </drugInformation>
       </allergyIntolerance>
